@@ -34,11 +34,11 @@ class menu {
 			$this->html .= '<ul>' . " \n";
 			if($this->main_page == 'cdsea') {
 				$this->html .= $this->menu('index', 'L\'association', 'association');
-				$this->html .= $this->menu('cdsea-missions', 'Missions', 'missions');
-				$this->html .= $this->menu('cdsea-conseil-d-administration', 'Conseil d\'administration', 'conseil-d-administration');
+				//$this->html .= $this->menu('cdsea-missions', 'Missions', 'missions');
+				//$this->html .= $this->menu('cdsea-conseil-d-administration', 'Conseil d\'administration', 'conseil-d-administration');
 				$this->html .= $this->menu('cdsea-equipe', '&Eacute;quipe', 'equipe');
-				$this->html .= $this->menu('cdsea-partenaires', 'Partenaires', 'partenaires');
-				$this->html .= $this->menu('cdsea-financeurs', 'Financeurs', 'financeurs');
+				//$this->html .= $this->menu('cdsea-partenaires', 'Partenaires', 'partenaires');
+				//$this->html .= $this->menu('cdsea-financeurs', 'Financeurs', 'financeurs');
 				$this->html .= $this->menu('cdsea-audacite', 'Audacité', 'audacite');
 			}
 			else if($this->main_page == 'mecs') {
