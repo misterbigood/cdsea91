@@ -1,0 +1,28 @@
+body {
+
+	color:#333;
+	background-color:#E3E1E0;
+	font-family:  Helvetica, Tahoma, Verdana, Arial, Sans Serif;
+}
+
+h1 {
+	text-align:center;
+	font-variant:small-caps;
+	font-weight:normal;
+	margin-top:50px;
+	color:#333;
+}
+
+
+p {
+	text-align:center;
+}
+
+a {
+	color:#007C2F;
+	text-align: center;
+}
+
+a:hover {
+	color: #557C00;
+}

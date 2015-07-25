@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'mic_32_newlight'; /* mic_32_newlight */
+    src: url('../../../fonts/mic32new-lt-webfont.eot');
+    src: url('../../../fonts/mic32new-lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/mic32new-lt-webfont.woff') format('woff'),
+         url('../../../fonts/mic32new-lt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /* mic_32_newmedium */
+    font-family: 'mic_32_newmedium';
+    src: url('../../../fonts/mic32new-md-webfont.eot');
+    src: url('../../../fonts/mic32new-md-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/mic32new-md-webfont.woff') format('woff'),
+         url('../../../fonts/mic32new-md-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* =============================================
+	BALISES
+   ============================================= */
+
+body.mce-content-body {
+	background-color:#389DB9;
+}
+#tinymce * {
+	
+}
+#tinymce h1 {
+    font-family: 'mic_32_newlight';
+	color: #FFFFFF;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+	font-size: 1.25em;
+    line-height: 1.25em;
+	font-weight: normal;
+}
+#tinymce h2 {
+	font-family: 'mic_32_newlight';
+    border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+    text-transform: uppercase;
+	font-size: 1.5em;
+    line-height: 1.25em;
+	font-weight: normal;
+    margin-bottom: 0.5em;
+}
+#tinymce p, #tinymce dt, #tinymce dd {
+    color: #000607;
+    font-size: 0.8125em;
+    text-align: justify;
+	margin-bottom: 1.5em;
+}
+#tinymce a {
+	color:#fff;
+}
+#tinymce ul {
+    margin-bottom: 30px;
+}
+#tinymce ul li:before {
+    background-color: #E21356;
+	content: " ";
+    display: inline-block;
+    height: 6px;
+    left: -1.5em;
+    position: absolute;
+    top: 0.65em;
+    width: 6px;
+}
+#tinymce li {
+    margin-bottom: 1em;
+    position: relative;
+	list-style-type: none;
+}
+#tinymce figure {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px 0 #0E5E70;
+    line-height: 0.5em;
+    z-index: 10;
+}
+#tinymce figure img {
+    margin: 4%;
+    width: 92%;
+}
+#tinymce img {
+    height: auto;
+	max-width: 100%;
+}
+#tinymce .image-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+#tinymce .image-left {
+     float: left;
+    margin: 0 1em 1em 0;
+}

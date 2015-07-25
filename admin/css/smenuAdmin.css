@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.smenuAdmin {
+	display:inline-block;
+}
+
+.smenuAdmin li {
+	float:left;
+	margin:10px;
+	list-style-type:none;
+	font-variant:small-caps;
+	font-size:1.25em;
+}
+
+.smenuAdmin li a {
+	float:left;
+	display:block;
+	padding:0.25em .75em;
+	text-decoration:none;
+	color:#999;
+	background: #ECECEC; /* Old browsers */
+	border:1px solid #CECECE;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; 
+}
+
+.smenuAdmin li a:hover, .smenuAdmin li a#smenuOn {
+	background:none;
+	color:#555;
+}
+
+.smenuAdmin li a:hover {
+	color:#555;
+}

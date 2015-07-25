@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divAjax * {
+	font-family:Arial, Helvetica, sans-serif;
+}
+#divAjax #main {
+	width:680px; margin:30px auto 0 auto; border:1px solid; border-color:#AFA489 #8F7C55 #8F7C55 #AFA489;
+}
+#divAjax #imgTop {
+	width:680px; height:160px; margin:0; border-bottom:1px solid; border-color:#8F7C55;
+}
+#divAjax #bgColor {
+	margin:0; background-color:#FFF;
+}
+#divAjax #topPad {
+	width:680px; height:20px; margin:0 auto; background-color:#FFF;
+}
+#divAjax #bottomPad {
+	width:680px; height:20px; margin:0 auto; background-color:#FFF;
+}
+#divAjax table {
+	font-size:12px; margin:20px auto; border-collapse:collapse; text-align:left; border:1px solid; border-color:#AFA489 #8F7C55 #8F7C55 #AFA489;
+}
+#divAjax table th {
+	font-weight:bold; padding:2px 10px; text-align:right;
+}
+#divAjax table td {
+	vertical-align:middle; padding:2px 10px; font-weight:normal; text-align:left;
+}
+#divAjax h1 {
+	color: #000; text-align :center; font-size:14px; margin:0 20px 20px 20px; border:1px solid; border-color:#AFA489 #8F7C55 #8F7C55 #AFA489;
+}
+#divAjax h2 {
+	margin:10px; text-align:center; font-size:14px;
+}
+#divAjax h4 {
+	margin:10px auto 0 auto; text-align:center; font-size:12px;
+}
+#divAjax p {
+	margin:10px 20px; font-size:12px;
+}
+#divAjax p.centre {
+	text-align:center;
+}
+#divAjax a {
+	color:#7F070C;
+}
+
+#divAjax #header {
+	padding-bottom:20px;
+}
+
+#divAjax #pied {
+	padding:10px 0;
+	text-align:center;
+}
+
+/* _________________ TABLEAUX _________________ */
+
+.newsletterTable {
+	margin:70px auto 20px auto;
+	border-collapse:collapse;
+	text-align:left;
+	width:600px;
+}
+
+.newsletterTable th {
+	font-weight:normal;
+	background-color:#80062D;
+	color:#FFF;
+	padding:2px;
+}
+.newsletterTable th.thLeft {
+	border-left:1px solid;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-color:#6A624E #3F3725 #3F3725 #6A624E;
+}
+
+.newsletterTable th.thLeft a {
+	color:#DFB953;
+}
+
+.newsletterTable th.thRight {
+	border-right:1px solid;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-color:#6A624E #3F3725 #3F3725 #6A624E;
+	text-align:right;
+}
+
+.newsletterTable td.ref {
+	text-align:center;
+	line-height:1em;
+	padding-bottom:20px;
+}
+
+.newsletterTable td {
+	vertical-align:middle;
+	padding-right:20px;
+	font-weight:bold;
+}
+
+.newsletterTable td img {
+	border:1px solid black;
+	margin-right:5px;
+	width:60px;
+	height:60px;
+}
+
+.newsletterTable td.centre {
+	text-align:center;
+	padding:10px;
+}
+
+#listeItem table {
+	border:none;
+}

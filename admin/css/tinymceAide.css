@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CONTENU :
+
+- Réinitialisation des styles, pour supprimer les styles de admin.css
+- TINYMCE HELP : styles de l'aide
+
+- copie du fichier tinymce.css limitant les styles à la balise #tinyMceHelpContenu #tinymceStyles.
+
+A include dans tinyMceAide.php, pour afficher les styles prédéfinis dans l'aide rubrique Liste des styles disponibles.
+ */
+
+/* ___________ réinitialise tout, supprime les styles de admin.css, attribue valeurs utilisées par défaut par firefox + marges & pad = 0 _____________ */
+
+/* blocks */
+
+#tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles html, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles div, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles map, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles dt {
+	display: block;
+}
+
+#tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles p, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles dl, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles multicol {
+	display: block;
+	margin: 1em 0;
+}
+
+#tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles dd {
+	display: block;
+	margin-left: 40px;
+}
+
+#tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles blockquote {
+	display: block;
+	margin: 1em 40px;
+}
+
+#tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles address {
+	display: block;
+	font-style: italic;
+}
+
+#tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles h1, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles h2, #tinyMceHelpContenu #tinyMceHelpContenu #tinymceStyles h3, #tinyMceHelpContenu #tinymceStyles h4, #tinyMceHelpContenu #tinymceStyles h5, #tinyMceHelpContenu #tinymceStyles h6 {
+	display: block;
+	font-weight: bold;
+}
+
+#tinyMceHelpContenu #tinymceStyles h1 {
+	font-size: 2em;
+}
+
+#tinyMceHelpContenu #tinymceStyles h2 {
+	font-size: 1.5em;
+}
+
+#tinyMceHelpContenu #tinymceStyles h3 {
+	font-size: 1.17em;
+}
+
+#tinyMceHelpContenu #tinymceStyles h4 {
+	font-size: 1em;
+}
+
+#tinyMceHelpContenu #tinymceStyles h5 {
+	font-size: 0.83em;
+}
+
+#tinyMceHelpContenu #tinymceStyles h6 {
+	font-size: 0.67em;
+}
+
+#tinyMceHelpContenu #tinymceStyles table {
+	display: table;
+	border-spacing: 2px;
+	border-collapse: separate;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 0;
+}
+
+#tinyMceHelpContenu #tinymceStyles caption {
+	display: table-caption;
+	text-align: center;
+}
+
+#tinyMceHelpContenu #tinymceStyles td {
+	display: table-cell;
+	vertical-align: inherit;
+	text-align: inherit;
+	padding: 1px;
+}
+#tinyMceHelpContenu #tinymceStyles th {
+	display: table-cell;
+	vertical-align: inherit;
+	font-weight: bold;
+	padding: 1px;
+}
+
+#tinyMceHelpContenu #tinymceStyles b, #tinyMceHelpContenu #tinymceStyles strong {
+font-weight: bolder;
+}
+
+#tinyMceHelpContenu #tinymceStyles i, #tinyMceHelpContenu #tinymceStyles cite, #tinyMceHelpContenu #tinymceStyles em, #tinyMceHelpContenu #tinymceStyles var, #tinyMceHelpContenu #tinymceStyles dfn {
+font-style: italic;
+}
+
+/* lists */
+
+#tinyMceHelpContenu #tinymceStyles ul,#tinyMceHelpContenu #tinymceStyles menu, #tinyMceHelpContenu #tinymceStyles dir {
+	display: block;
+	list-style-type: disc;
+	margin: 1em 0;
+}
+
+#tinyMceHelpContenu #tinymceStyles ol {
+	display: block;
+	list-style-type: decimal;
+	margin: 1em 0;
+}
+
+#tinyMceHelpContenu #tinymceStyles li {
+	display: list-item;
+}
+
+#tinyMceHelpContenu #tinymceStyles ol ul, #tinyMceHelpContenu #tinymceStyles ul ul {
+	list-style-type: circle;
+}
+
+#tinyMceHelpContenu #tinymceStyles hr {
+	display: block;
+	height: 2px;
+	border: 1px -moz-bg-inset;
+	margin: 0.5em auto 0.5em auto;
+}
+
+#tinyMceHelpContenu #tinymceStyles * { 
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	border:none;
+	background:none;
+	color:#000;
+	clear:none;
+	text-align:left;
+}
+
+#tinyMceHelpContenu #tinymceStyles #tableStyles {
+	margin:auto;
+}
+
+#tinyMceHelpContenu #tinymceStyles #tableStyles th {
+	text-align:right;
+	padding-right:40px;
+}
+
+#tinyMceHelpContenu #tinymceStyles #tableStyles th, #tinyMceHelpContenu #tinymceStyles #tableStyles td {
+	vertical-align:middle;
+	border:1px solid #a29a94;
+}
+
+#tinyMceHelpContenu #tinymceStyles .imageInline {
+	display:inline-block; 
+	position:relative; 
+	top:7px;
+	margin:0 7px;
+}
+
+/*______________________ TINYMCE HELP ______________________*/
+
+#tinyMceHelp {
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:0;
+	overflow:visible;
+	background:#F0F0EE;
+	z-index:10000;
+}
+
+#resizeHandle {
+	width:100%;
+	padding:2px 0;
+	cursor:row-resize;
+	-webkit-box-shadow: 0px 3px 10px #93857A;
+	-moz-box-shadow: 0px 3px 10px #93857A;
+	box-shadow: 0px 3px 10px #93857A;
+	background:#564639;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2B2019), to(#564639));
+	background: -moz-linear-gradient(top, #2B2019, #564639);
+}
+
+#resizeHandle .arrow-up {
+	margin:0 auto 2px auto;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #f8f6f5;
+}
+
+#resizeHandle .arrow-down {
+	margin:0 auto;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #f8f6f5;
+}
+
+.tinyMceHelpOn {
+	height:400px;
+}
+
+.tinyMceHelpOff {
+	height:0;
+}
+
+#tinyMceHelpContenu {
+	margin:20px;
+	height:380px;
+	overflow:auto;
+	background-color:#FFF;
+	border:1px solid #362c25;
+}
+
+#tinyMceHelpContenu h2 {
+	background: #362c25;
+	background: #5b8600;
+	background: -webkit-gradient(linear, left top, left bottom, from(#354e00), to(#5b8600));
+	background: -moz-linear-gradient(top, #354e00, #5b8600);
+	border:1px solid #354e00;
+	color:#FFF;
+	font-weight:bold;
+	font-size:12px;
+	margin:0 auto;
+	padding:3px 15px;
+	cursor:pointer;
+	text-align:center;
+}
+
+#tinyMceHelpContenu h2:hover {
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5b8600), to(#76ae00));
+	background: -moz-linear-gradient(top, #5b8600, #76ae00);
+	border:1px solid #5b8600;
+}
+
+#tinyMceHelpContenu h3 {
+	font-size:12px;
+	margin:10px 0;
+	background: #e3e1e0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#C9C1BD), to(#e3e1e0));
+	background: -moz-linear-gradient(top, #C9C1BD, #e3e1e0);
+	padding:2px;
+	color:#18130f;
+}
+
+#tinyMceHelpContenu ol, #tinyMceHelpContenu ul {
+	position:relative;
+	left:40px;
+}
+
+#tinyMceHelpContenu p, #tinyMceHelpContenu li {
+	text-align:left;
+	font-size:13px;
+	margin-bottom:5px;
+	color:#18130f;
+}
+
+#tinyMceHelpContenu .content .pad {
+	padding:15px;
+}
+
+/*______________________ Styles du site public ______________________*/
+
+#tinyMceHelpContenu #tinymceStyles h1 {
+	text-align:center;
+	font-size:20px;
+	font-weight:normal;
+}
+	
+#tinyMceHelpContenu #tinymceStyles h2 {
+	font-size:18px;
+	text-align:center;
+	font-variant:normal;
+	color:#AD1000;
+	font-weight:normal;
+}
+
+#tinyMceHelpContenu #tinymceStyles h3 {
+	font-weight:normal;
+	font-style:italic;
+	color:#666;
+	font-size:16px;
+	margin:0;
+}
+
+#tinyMceHelpContenu #tinymceStyles ol, #tinyMceHelpContenu #tinymceStyles ul {
+	padding-left:15px;
+}
+
+#tinyMceHelpContenu #tinymceStyles li {
+	list-style-position:inside;
+	line-height:1.4em;
+}
+
+
+#tinyMceHelpContenu #tinymceStyles .titreListe {
+	font-weight:bold;
+	margin:10px 0 7px 0;
+	color:#AD1000;
+}
+
+#tinyMceHelpContenu #tinymceStyles table {
+	-webkit-box-shadow: 1px 2px 3px #7F6E54;
+	-moz-box-shadow: 1px 2px 3px #7F6E54;
+	box-shadow: 1px 2px 3px #7F6E54;
+	margin:15px auto;
+	border:none;
+}
+
+#tinyMceHelpContenu #tinymceStyles #tableStyles table th, #tinyMceHelpContenu #tinymceStyles #tableStyles table td {
+	text-align:left;
+	padding:2px 7px;
+	border:none;
+}
+
+#tinyMceHelpContenu #tinymceStyles .imgLeft {
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+#tinyMceHelpContenu #tinymceStyles .imgRight {
+	float:right;
+	margin:0 0 10px 10px;
+}
+
+#tinyMceHelpContenu #tinymceStyles .separation {
+	height:1px;
+	visibility:hidden;
+	clear:both;
+}

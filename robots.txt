@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin
+Disallow: /cache
+Disallow: /sphider
+Disallow: /uploads
+Disallow: no-reference.php
+Disallow: no-reference.html

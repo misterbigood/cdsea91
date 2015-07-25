@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	margin:15px auto;
+}
+
+#combo_zoneSc, #combo_zoneArticles {
+	font-weight:bold;
+}
+
+.dhx_combo_box {
+	margin:15px auto;
+}
+
+.dhx_combo_list {
+	vertical-align:center;
+}
+
+.dhx_combo_list img {
+	width:20px;
+	height:20px;
+	margin:2px;
+	border:1px solid black;
+}
+
+#btnValider, #btnVisualiser {
+	margin:10px auto;
+	display:none;
+}
+
+#selectDateHeure {
+	display:none;
+}
+
+#selectDateHeure option {
+	paddingt:1px 3px;
+}
+
+#envoyer {
+	display:none;
+}
+
+.radioBtns {
+	font-weight:bold;
+	position:relative;
+	left:-15px;
+}
+
+.radioBtns span {
+	padding-left:30px;
+	margin-right:20px;
+}
+
+input, button, textarea {
+	border:1px solid;
+	border-color:#6A624E #3F3725 #3F3725 #6A624E;
+}
+
+/* _________________ TABLEAUX _________________ */
+
+form .tableDetail {
+	border:1px solid;
+	border-color:#6A624E #3F3725 #3F3725 #6A624E;
+	background-color:#320909;
+}
+
+.tableDetail {
+	font-size:.9em;
+	font-weight:bold;
+	margin:15px auto;
+}
+
+.L10 {
+	width:10%;
+	text-align:center;
+}
+
+.L25BtnEnlever {
+	width:25%;
+	font-size:.9em;
+}
+
+td.ref {
+	text-align:center;
+	font-size:.9em;
+}
+
+/* _________________ DIVERS _________________ */
+
+#pied {
+	padding:10px 0;
+	text-align:center;
+}
+
+#result, #result2 {
+	color:white;
+}
+
+#spanFermer {
+	margin:7px auto 20px auto;
+}
