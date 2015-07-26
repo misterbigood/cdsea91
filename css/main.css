@@ -98,6 +98,7 @@ p.header {
     margin-top: -177px;
     min-height: 177px;
     background: #cdcdcd;
+    box-shadow: -2px 1px 13px rgba(35, 31, 32, 0.75);
 }
 
 #footer-content {
