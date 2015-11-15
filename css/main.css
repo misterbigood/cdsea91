@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    padding-top: 16px; /* fixed-menu + marge : 28px + 18px */
+    padding-top: 14px; /* fixed-menu + marge : 28px + 18px */
     font-size: 100%; /* 16px */
     line-height: 1.1em; /*1.375em 16px 22px */
     background-color: #389db9;
