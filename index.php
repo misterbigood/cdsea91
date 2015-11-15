@@ -95,26 +95,23 @@ $actualites = new actualites('index');
 						</dl>
                                                 <h2>Les partenaires</h2>
 						<dl class="units-row" id="partenaires">
-							<dt class="unit-40"><img src="images/partenaires/sauvegarde-yvelines.jpg" alt="La Sauvegarde des Yvelines" class="image-left"></dt><dd class="unit-60">La Sauvegarde des Yvelines<br><a href="http://www.sauvegarde-yvelines.org/">http://www.sauvegarde-yvelines.org/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/sauvegarde-paris.jpg" alt="La Sauvegarde de Paris" class="image-left"></dt><dd class="unit-60">La Sauvegarde de Paris<br><a href="http://www.sauvegarde-paris.fr/">http://www.sauvegarde-paris.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/sauvegarde93.jpg" alt="La Sauvegarde du 93" class="image-left"></dt><dd class="unit-60">La Sauvegarde du 93<br><a href="http://www.sauvegarde93.fr/">http://www.sauvegarde93.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/sauvegarde95.jpg" alt="La Sauvegarde du 95" class="image-left"></dt><dd class="unit-60">La Sauvegarde du 95<br><a href="http://www.sauvegarde95.fr/">http://www.sauvegarde95.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/adsea77.jpg" alt="La Sauvegarde du 77" class="image-left"></dt><dd class="unit-60">La Sauvegarde du 77<br><a href="http://adsea77.fr/">http://adsea77.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/syneas.jpg" alt="Le Syneas" class="image-left"></dt><dd class="unit-60">Le Syneas<br><a href="http://www.syneas.fr/">http://www.syneas.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/uriopss-idf.jpg" alt="L'URIOPS" class="image-left"></dt><dd class="unit-60">L'URIOPS<br><a href="http://www.uriopss-idf.asso.fr/">http://www.uriopss-idf.asso.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/cnaemo.jpg" alt="Le CNAEMO" class="image-left"></dt><dd class="unit-60">Le CNAEMO<br><a href="http://www.cnaemo.com/">http://www.cnaemo.com/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/adapss.jpg" alt="L'ADAPSS" class="image-left"></dt><dd class="unit-60">L'ADAPSS<br><a href="http://www.adapss.fr/">http://www.adapss.fr/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/irfase.jpg" alt="L'IRFASE" class="image-left"></dt><dd class="unit-60">L'IRFASE<br><a href="http://www.irfase.com/">http://www.irfase.com/</a></dd>
-							<dt class="unit-40 clear"><img src="images/partenaires/andesi.jpg" alt="L'ANDESI" class="image-left"></dt><dd class="unit-60">L'ANDESI<br><a href="http://www.andesi.asso.fr/">http://www.andesi.asso.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/sauvegarde-yvelines.jpg" alt="La Sauvegarde des Yvelines" class="image-left"></dt><dd class="unit-33">La Sauvegarde des Yvelines<br><a href="http://www.sauvegarde-yvelines.org/">http://www.sauvegarde-yvelines.org/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/sauvegarde-paris.jpg" alt="La Sauvegarde de Paris" class="image-left"></dt><dd class="unit-33">La Sauvegarde de Paris<br><a href="http://www.sauvegarde-paris.fr/">http://www.sauvegarde-paris.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/sauvegarde93.jpg" alt="La Sauvegarde du 93" class="image-left"></dt><dd class="unit-33">La Sauvegarde du 93<br><a href="http://www.sauvegarde93.fr/">http://www.sauvegarde93.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/sauvegarde95.jpg" alt="La Sauvegarde du 95" class="image-left"></dt><dd class="unit-33">La Sauvegarde du 95<br><a href="http://www.sauvegarde95.fr/">http://www.sauvegarde95.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/adsea77.jpg" alt="La Sauvegarde du 77" class="image-left"></dt><dd class="unit-33">La Sauvegarde du 77<br><a href="http://adsea77.fr/">http://adsea77.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/syneas.jpg" alt="Le Syneas" class="image-left"></dt><dd class="unit-33">Le Syneas<br><a href="http://www.syneas.fr/">http://www.syneas.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/uriopss-idf.jpg" alt="L'URIOPS" class="image-left"></dt><dd class="unit-33">L'URIOPS<br><a href="http://www.uriopss-idf.asso.fr/">http://www.uriopss-idf.asso.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/cnaemo.jpg" alt="Le CNAEMO" class="image-left"></dt><dd class="unit-33">Le CNAEMO<br><a href="http://www.cnaemo.com/">http://www.cnaemo.com/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/adapss.jpg" alt="L'ADAPSS" class="image-left"></dt><dd class="unit-33">L'ADAPSS<br><a href="http://www.adapss.fr/">http://www.adapss.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/irfase.jpg" alt="L'IRFASE" class="image-left"></dt><dd class="unit-33">L'IRFASE<br><a href="http://www.irfase.com/">http://www.irfase.com/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/andesi.jpg" alt="L'ANDESI" class="image-left"></dt><dd class="unit-33">L'ANDESI<br><a href="http://www.andesi.asso.fr/">http://www.andesi.asso.fr/</a></dd>
 						</dl>
                                                 <h2>Les financeurs</h2>
-						<figure>
-							<img src="images/conseil-general-essonne.png" width="225" height="125" alt="Conseil Général de l'Essonne">
-						</figure>
-						<p>&nbsp;</p>
-						<figure>
-							<img src="images/agence-regionale-de-sante.png" width="155" height="121" alt="Agence Régionale de Santé">
-						</figure>
+                                                <dl class="units-row" id="partenaires">
+                                                    <dt class="unit-50"><img src="images/conseil-general-essonne.png" alt="Conseil Départemental de l'Essonne" class="image-left"></dt>
+                                                    <dt class="unit-50"><img src="images/agence-regionale-de-sante.png" alt="Agence Régionale de Santé" class="image-left"></dt>
+                                                </dl>
 					</article>
 
 					<aside class="unit-33">
@@ -129,5 +126,6 @@ $actualites = new actualites('index');
 			<?php include_once('inc/footer.php'); ?>
 		</footer>
 		<?php include_once('inc/js-includes.php'); ?>
+
     </body>
 </html>
