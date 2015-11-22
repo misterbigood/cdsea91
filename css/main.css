@@ -34,15 +34,16 @@ body {
 /* Return on top */
 #returnOnTop {
     background: url('../images/fleche-retour.png') no-repeat;
+    background-size: 24px 24px;
     bottom: 20%;
     cursor: pointer;
     display: none;
-    filter: alpha(opacity = 50); /* IE < 8 */
-    height: 48px;
+    filter: alpha(opacity = 40); /* IE < 8 */
+    height: 24px;
     opacity: 0.5;
     position: fixed;
-    right: 25%;
-    width: 48px;
+    right: 40%;
+    width: 24px;
 }
 
 #returnOnTop:hover {
