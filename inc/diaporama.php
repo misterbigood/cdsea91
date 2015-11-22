@@ -7,8 +7,8 @@ if(preg_match('`aed|sais|itep|mecs`', $_GET['repertoire'])) {
 ?>
 <script type="text/javascript">
 	$(document).ready(function(){
-		if($('.rslides')[0]) {
-			$(".rslides").responsiveSlides({
+		if($('.dslides')[0]) {
+			$(".dslides").responsiveSlides({
 				pager: false,
 				nav: true,
 				speed: 800,

@@ -9,6 +9,9 @@ if($dir == 'documentation') $titre = 'documentation';
 else if($dir == 'marche_public') $titre = 'marché public'; 
 else if($dir == 'ag-bureau') $titre = 'AG bureau';
 else if($dir == 'audacite') $titre = 'Audacité';
+include_once('class/mysql.php');
+include_once('class/actualites.php');
+$actualites = new actualites('documentation');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -42,7 +45,7 @@ else if($dir == 'audacite') $titre = 'Audacité';
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">
 				<h1>Comité Départemental de Sauvegarde de l'Enfant à l'Adulte de l'Essonne</h1>
-                                <?php $main_menu = new menu('page-nav', $page); ?>
+                                <?php //$main_menu = new menu('page-nav', $page); ?>
 				<section id="contenu" class="units-row documentation">
 					<article class="unit-66">
 						<h1><?php echo $titre; ?></h1>

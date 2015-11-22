@@ -38,17 +38,12 @@ $actualites = new actualites();
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">
 				<h1>Comité Départemental de Sauvegarde de l'Enfant à l'Adulte de l'Essonne</h1>
-				<?php $main_menu = new menu('page-nav', $page); ?>
+				
 				<section id="contenu" class="units-row cdsea">
-					<article class="unit-66">
+					<article class="unit-80">
 						<h2>Actualités</h2>
 						<?php $actualites->afficher_liste(); ?>
 					</article>
-
-					<aside class="unit-33">
-						<?php include_once('inc/aside-content.php'); ?>
-					</aside>
-
 				</section> <!-- #contenu -->
 			 </div><!-- #conteneur -->
 			<div id="spacer-footer"></div>

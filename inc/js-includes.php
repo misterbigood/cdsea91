@@ -21,7 +21,7 @@
 
                 $(window).scroll(function() {
                     // If on top fade the bouton out, else fade it in
-                    if ( $(window).scrollTop() == 0 )
+                    if ( $(window).scrollTop() < 160 )
                         $('#returnOnTop').fadeOut();
                     else
                         $('#returnOnTop').fadeIn();

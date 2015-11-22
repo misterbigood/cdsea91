@@ -13,10 +13,10 @@ class actualites {
 	public $html;
 	public $date_publication;
 
-	public $nbre_par_page = 6; /* si modifié, penser à changer dans l'admin $nbreActualitesParPage (class actualites) */
+	public $nbre_par_page = 8; /* si modifié, penser à changer dans l'admin $nbreActualitesParPage (class actualites) */
 
 	public function __construct($page = '') {
-		$qry = "SET NAMES 'utf8'";
+	$qry = "SET NAMES 'utf8'";
         $db = new MySQL();
         $db->Open();
         $db->query($qry);
@@ -26,21 +26,25 @@ class actualites {
             $db->Open();
             $db->query($qry);
         else:
-        	if($page == 'index') {
-			$qry = "SELECT * FROM actualites WHERE actif='1' ORDER BY date_publication DESC LIMIT 10";
+                if($page == 'index'):
+			$qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='cdsea' ORDER BY date_publication DESC LIMIT 6";
 			$db = new MySQL();
 			$db->Open();
 			$db->query($qry);
-		}
-		else {
+		elseif($page <> ''):
+                        $qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='".$page."' ORDER BY date_publication DESC LIMIT 6";
+			$db = new MySQL();
+			$db->Open();
+			$db->query($qry);
+                else:
 			$debut_qry = "SELECT * ";
 			$qry = " FROM actualites WHERE actif='1' ORDER BY date_publication DESC";
 			$adressePagination = 'actualites';
 			$db = new pagination();
 			$db->Open();
 			$this->paginationHtml = $db->pagine($debut_qry, $qry, $this->nbre_par_page,"p",$adressePagination);
-
-		}
+                endif;
+                
         endif;
 		$this->nbreActus = $db->RowCount();
 		while (! $db->EndOfSeek()) {
@@ -85,6 +89,7 @@ class actualites {
 		if(empty($this->nbreActus)) echo '<p class="header">Aucune actualité enregistrée</p>' . " \n";
 		else {
 			$html = '';
+                        $html .= $this->paginationHtml;
 			for($i=0; $i<$this->nbreActus; $i++) {
 				$class_last = '';
 				if($i + 1 == $this->nbreActus) $class_last = ' last';
@@ -145,10 +150,14 @@ class actualites {
 		if(empty($this->nbreActus)) echo '<p class="header">Aucune actualité enregistrée</p>' . " \n";
 		else {
 			$html = '';
+                        $html .= $this->paginationHtml;
+                        $marqueur = TRUE;
 			for($i=0; $i<$this->nbreActus; $i++) {
 				$class_last = '';
-				if($i + 1 == $this->nbreActus) $class_last = ' last';
-				$html .= '<article class="actualite' . $class_last . '" id="actualite-' . $this->ID[$i] . '">' . " \n";
+                                $marqueur ? $class_ligne = "impair" : $class_ligne = "pair";
+                                $marqueur = !$marqueur;
+                                if($i + 1 == $this->nbreActus) $class_last = ' last';
+				$html .= '<article class="actualite' . $class_last . ' '.$class_ligne.'" id="actualite-' . $this->ID[$i] . '">' . " \n";
 				$html .= '<header>' . " \n";
 				$html .= '<p class="info-actu units-row-end"><span class="rubrique-actu ' . $this->rubrique[$i] . '-color">' . $this->rubrique[$i] . '</span><span class="date-actu">Le ' . $this->dateActu[$i] . ' à ' . $this->heureActu[$i] . '</span></p>' . " \n";
 				$html .= '<h1 id="titre-actus-' . $this->ID[$i] . '"><a href="detail-actu.html?id_actu='. $this->ID[$i] .'">' . $this->titre[$i] . '</a></h1>' . " \n";

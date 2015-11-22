@@ -1,6 +1,9 @@
 <?php session_start();
 $page = 'aed-structure';
 include_once('class/menu.php');
+include_once('class/mysql.php');
+include_once('class/actualites.php');
+$actualites = new actualites('aed');
 ?>
 <!DOCTYPE html>
 <html lang="fr">

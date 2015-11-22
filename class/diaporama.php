@@ -21,7 +21,7 @@ class diaporama {
 	public function afficher()
 	{
 		if(!empty($this->nbre_images)) {
-			$html = '<ul class="rslides">' . " \n";
+			$html = '<ul class="dslides">' . " \n";
 			for($i=0; $i<$this->nbre_images; $i++) {
 				$html .= '<li><img src="' . $this->repertoire . $this->images[$i] . '" alt=""></li>' . " \n";
 			}

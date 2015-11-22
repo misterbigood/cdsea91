@@ -21,6 +21,16 @@ body {
     height: 60px;
 }
 
+/* Actualités, liste */
+.impair {
+    width: 66%;
+    float: left;
+}
+.pair {
+    width: 66%;
+    float: right;
+}
+
 /* Return on top */
 #returnOnTop {
     background: url('../images/fleche-retour.png') no-repeat;
@@ -31,7 +41,7 @@ body {
     height: 48px;
     opacity: 0.5;
     position: fixed;
-    right: 1%;
+    right: 25%;
     width: 48px;
 }
 

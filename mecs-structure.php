@@ -1,6 +1,9 @@
 <?php session_start(); 
 $page = 'mecs-structure';
 include_once('class/menu.php');
+include_once('class/mysql.php');
+include_once('class/actualites.php');
+$actualites = new actualites('mecs');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
