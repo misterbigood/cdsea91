@@ -39,8 +39,7 @@
 			<ul class="end">
                             
 				<li><a href="actualites.html"><strong>Actualités</strong></a></li>
-				<li><a href="offres_emploi.html"><strong>Offre d'emploi</strong></a></li>
-                                <li><a href="contact.html"><strong>Accès / contacts</strong></a></li>
+				<li><a href="contact.html"><strong>Accès / contacts</strong></a></li>
 				<li><a href="documentation.html"><strong>Documentation</strong></a></li>
                                 <li><a href="mentions-legales.html"><strong>Mentions légales</strong></a></li>
 			</ul>
