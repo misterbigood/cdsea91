@@ -34,12 +34,12 @@ class menu {
 			$this->html .= '<ul>' . " \n";
 			if($this->main_page == 'cdsea') {
 				$this->html .= $this->menu('index', 'L\'association', 'association');
-				$this->html .= $this->menu('cdsea-missions', 'Missions', 'missions');
-				$this->html .= $this->menu('cdsea-conseil-d-administration', 'Conseil d\'administration', 'conseil-d-administration');
+				//$this->html .= $this->menu('cdsea-missions', 'Missions', 'missions');
+				//$this->html .= $this->menu('cdsea-conseil-d-administration', 'Conseil d\'administration', 'conseil-d-administration');
 				$this->html .= $this->menu('cdsea-equipe', '&Eacute;quipe', 'equipe');
-				$this->html .= $this->menu('cdsea-partenaires', 'Partenaires', 'partenaires');
-				$this->html .= $this->menu('cdsea-financeurs', 'Financeurs', 'financeurs');
-				$this->html .= $this->menu('cdsea-audacite', 'Audacité', 'audacite');
+				//$this->html .= $this->menu('cdsea-partenaires', 'Partenaires', 'partenaires');
+				//$this->html .= $this->menu('cdsea-financeurs', 'Financeurs', 'financeurs');
+				//$this->html .= $this->menu('cdsea-audacite', 'Audacité', 'audacite');
 			}
 			else if($this->main_page == 'mecs') {
 				$this->html .= $this->menu('mecs-structure', 'Structure', 'structure');
@@ -61,7 +61,7 @@ class menu {
 				$this->html .= $this->menu('documentation', 'Documentation', 'documentation');
 				//$this->html .= $this->menu('marche-public', 'Marché public', 'marche_public');
 				//$this->html .= $this->menu('ag-bureau', 'AG bureau', 'ag_bureau');
-                                $this->html .= $this->menu('audacite', 'Audacité', 'audacite');
+                                //$this->html .= $this->menu('audacite', 'Audacité', 'audacite');
 			}
 			$this->html .= '</ul>' . " \n";
 			$this->html .= '</nav>' . " \n";

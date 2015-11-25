@@ -32,7 +32,7 @@ include_once('class/offres_emploi.php');
         <!--[if lt IE 8]>
             <p class="chromeframe">Vous utilisez un navigateur préhistorique .... <a href="http://browsehappy.com/"> Pourquoi pas le mettre à jour maintenant ?</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installer Google Chrome Frame</a> pour profiter de toutes les fonctionnalités de ce site</p>
         <![endif]-->
-		<?php include_once('inc/menu-fixed.php'); ?>
+		
 		<div id="footerWrapper">
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">

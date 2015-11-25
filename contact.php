@@ -76,13 +76,11 @@ $formContact->txt = '<p><span class="alerte">*</span> <span class="small">obliga
         <!--[if lt IE 8]>
             <p class="chromeframe">Vous utilisez un navigateur préhistorique .... <a href="http://browsehappy.com/"> Pourquoi pas le mettre à jour maintenant ?</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installer Google Chrome Frame</a> pour profiter de toutes les fonctionnalités de ce site</p>
         <![endif]-->
-		<?php include_once('inc/menu-fixed.php'); ?>
 		<div id="footerWrapper">
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">
 				<h1>Comité Départemental de Sauvegarde de l'Enfant à l'Adulte de l'Essonne</h1>
-                                <?php $main_menu = new menu('page-nav', $page); ?>
-				<section id="contenu" class="units-row cdsea">
+                                <section id="contenu" class="units-row cdsea">
 					<article class="unit-66">
 						<h1><strong>Nous contacter</strong></h1>
 						<?php if(isset($htmlInfoTop)) { ?>
@@ -91,13 +89,8 @@ $formContact->txt = '<p><span class="alerte">*</span> <span class="small">obliga
 						else $formContact->afficher();?>
 					</article>
 
-					<aside class="unit-33">
-						<div id="diaporama" data-repertoire="mecs">
-							<noscript><img src="images/mecs/DSCN0320-bis.jpg" alt="MECS"></noscript>
-						</div>
-						<?php include_once('inc/aside-content.php'); ?>
-					</aside>
-					<article class="unit-100 clear">
+					
+					<article class="unit-50 clear">
 						<address>
 							<h2>C.D.S.E.A. Siège</h2>
 							<!--<a href="https://www.google.com/maps/place/98+All%C3%A9e+des+Champs+Elys%C3%A9es/@48.6301906,2.4243476,17z/data=!4m2!3m1!1s0x47e5de1710f423bb:0xeba2c8d03d52cc09" class="image-left gmap" target="_blank"><img src="images/Google-Maps-logo-Icon-Design.png" height="40" width="40" alt="Voir sur Google Maps"></a>-->

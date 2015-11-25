@@ -1,13 +1,13 @@
 <?php session_start();
-$page = 'cdsea-financeurs';
+$page = 'cdsea-missions';
 include_once('class/menu.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Comité départemental de sauvegarde de l'enfant à l'adulte de l'Essonne - Les Financeurs</title>
-        <meta name="description" content="Les Financeurs du Du CDSEA, de la MECS, du SAIS et des SAEMF">
+        <title>Comité départemental de sauvegarde de l'enfant à l'adulte de l'Essonne - Missions</title>
+        <meta name="description" content="Dans le respect de ses valeurs, le CDSEA entend contribuer à la réalisation et au développement d'un véritable projet de cohésion sociale sur le territoire Essonnien.">
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
@@ -29,7 +29,7 @@ include_once('class/menu.php');
         <!--[if lt IE 8]>
             <p class="chromeframe">Vous utilisez un navigateur préhistorique .... <a href="http://browsehappy.com/"> Pourquoi pas le mettre à jour maintenant ?</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installer Google Chrome Frame</a> pour profiter de toutes les fonctionnalités de ce site</p>
         <![endif]-->
-		<?php include_once('inc/menu-fixed.php'); ?>
+		
 		<div id="footerWrapper">
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">
@@ -39,15 +39,18 @@ include_once('class/menu.php');
 					<article class="unit-66">
 						<h1><strong>cdsea</strong> <br>comité départemental pour la sauvegarde de l'enfant à l'adulte</h1>
 						<p class="header">Projet associatif 2014-2019</p>
-						<h2>LES FINANCEURS :</h2>
-						<figure>
-							<img src="images/conseil-general-essonne.png" width="225" height="125" alt="Conseil Général de l'Essonne">
-						</figure>
-						<p>&nbsp;</p>
-						<figure>
-							<img src="images/agence-regionale-de-sante.png" width="155" height="121" alt="Agence Régionale de Santé">
-						</figure>
+						<h2>Des missions</h2>
+						<p>Dans le respect de ses valeurs, le CDSEA entend contribuer à la réalisation et au développement d'un véritable projet de cohésion sociale sur le territoire Essonnien.</p>
+						<p>L'association a pour mission principale de proposer, de porter et faire évoluer tout projet permettant de favoriser la vie et l'expression citoyenne des personnes les plus vulnérables.</p>
+						<h3>Aujourd'hui le CDSEA</h3>
+						<ul><li>Accompagne 1 300 enfants, adolescents ou adultes</li>
+							<li>Avec l'aide de 200 professionnels</li>
+							<li>Dans une vingtaine de communes de l'Essonne</li>
+							<li>Pour un budget de 11M &euro;</li>
+						</ul>
+
 					</article>
+
 					<aside class="unit-33">
 						<?php include_once('inc/aside-content.php'); ?>
 					</aside>

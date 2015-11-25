@@ -33,22 +33,17 @@ $actualites = new actualites();
         <!--[if lt IE 8]>
             <p class="chromeframe">Vous utilisez un navigateur préhistorique .... <a href="http://browsehappy.com/"> Pourquoi pas le mettre à jour maintenant ?</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installer Google Chrome Frame</a> pour profiter de toutes les fonctionnalités de ce site</p>
         <![endif]-->
-		<?php include_once('inc/menu-fixed.php'); ?>
+		
 		<div id="footerWrapper">
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">
 				<h1>Comité Départemental de Sauvegarde de l'Enfant à l'Adulte de l'Essonne</h1>
-				<?php $main_menu = new menu('page-nav', $page); ?>
+				
 				<section id="contenu" class="units-row cdsea">
-					<article class="unit-66">
+					<article class="unit-80">
 						<h2>Actualités</h2>
 						<?php $actualites->afficher_liste(); ?>
 					</article>
-
-					<aside class="unit-33">
-						<?php include_once('inc/aside-content.php'); ?>
-					</aside>
-
 				</section> <!-- #contenu -->
 			 </div><!-- #conteneur -->
 			<div id="spacer-footer"></div>

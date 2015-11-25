@@ -14,9 +14,9 @@ display: none;
 
 /* when under viewport size, .mean-container is added to body */
 .mean-container .mean-bar {
-	top: 28px;
+	/*top: 28px;*/
 	width: 100%;
-	position: fixed;
+	position: relative;
 	background: #23211E;
 	padding: 4px 0;
 	min-height: 42px;
