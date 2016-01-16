@@ -63,36 +63,40 @@ class telechargements {
 	public function afficher($tri='nom')
 	{
 		$html = '';
-                asort($this->repertoires['nom']);
-		foreach($this->repertoires['nom'] as $cle => $nom_repertoire) {
-			//$nom_repertoire = $this->repertoires['nom'][$i];
-			if(isset($this->fichiers[$nom_repertoire]['nom']) && !empty($this->fichiers[$nom_repertoire]['nom'])) {
-				$html .= '<article>' . " \n";
-				if($nom_repertoire != 'racine') {
-					$html .= '<h2>' . $nom_repertoire . '</h2>' . " \n";
-				}
-				$html .= '<ul>' . " \n";
-                                asort($this->fichiers[$nom_repertoire][$tri]);
-                                foreach($this->fichiers[$nom_repertoire]['nom'] as $key => $nom_fichier) {
-					//$nom_fichier = $this->fichiers[$nom_repertoire]['nom'][$j];
-					if($this->fichiers[$nom_repertoire]['extension'][$key] == 'pdf') {
-						if($nom_repertoire == 'racine') {
-							$lien = 'inc/telechargerPdf.php?pdf=' . $this->dir . '/' . $nom_fichier;
-						}
-						else $lien = 'inc/telechargerPdf.php?pdf=' . $this->dir . '/' . $nom_repertoire . '/' . $nom_fichier;
-					}
-					else {
-						if($nom_repertoire == 'racine') {
-							$lien = $this->dir . '/' . $nom_fichier;
-						}
-						else $lien = $this->dir . '/' . $nom_repertoire . '/' . $nom_fichier;
-					}
-					$html .= '<li><a href="' . $lien . '" class="' .$this->fichiers[$nom_repertoire]['extension'][$key] . '">' . $nom_fichier . '</a></li>' . " \n";
-				}
-				$html .= '</ul>' . " \n";
-				$html .= '</article>' . " \n";
-			}
-		}
+           
+                    
+                    asort($this->repertoires['nom']);
+                    foreach($this->repertoires['nom'] as $cle => $nom_repertoire) {
+                            //$nom_repertoire = $this->repertoires['nom'][$i];
+                            if(isset($this->fichiers[$nom_repertoire]['nom']) && !empty($this->fichiers[$nom_repertoire]['nom'])) {
+                                    $html .= '<article id="'.$nom_repertoire.'">' . " \n";
+                                    if($nom_repertoire != 'racine') {
+                                            $html .= '<h2>' . $nom_repertoire . '</h2>' . " \n";
+                                    }
+                                    $html .= '<ul>' . " \n";
+                                    asort($this->fichiers[$nom_repertoire][$tri]);
+                                    foreach($this->fichiers[$nom_repertoire]['nom'] as $key => $nom_fichier) {
+                                            //$nom_fichier = $this->fichiers[$nom_repertoire]['nom'][$j];
+                                            if($this->fichiers[$nom_repertoire]['extension'][$key] == 'pdf') {
+                                                    if($nom_repertoire == 'racine') {
+                                                            $lien = 'inc/telechargerPdf.php?pdf=' . $this->dir . '/' . $nom_fichier;
+                                                    }
+                                                    else $lien = 'inc/telechargerPdf.php?pdf=' . $this->dir . '/' . $nom_repertoire . '/' . $nom_fichier;
+                                            }
+                                            else {
+                                                    if($nom_repertoire == 'racine') {
+                                                            $lien = $this->dir . '/' . $nom_fichier;
+                                                    }
+                                                    else $lien = $this->dir . '/' . $nom_repertoire . '/' . $nom_fichier;
+                                            }
+                                            $html .= '<li><a href="' . $lien . '" class="' .$this->fichiers[$nom_repertoire]['extension'][$key] . '">' . $nom_fichier . '</a></li>' . " \n";
+                                    }
+                                    $html .= '</ul>' . " \n";
+                                    $html .= '</article>' . " \n";
+                            }
+                    }
+                
+                
 		echo $html;
 	}
 }

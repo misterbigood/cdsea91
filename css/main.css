@@ -34,16 +34,15 @@ body {
 /* Return on top */
 #returnOnTop {
     background: url('../images/fleche-retour.png') no-repeat;
-    background-size: 24px 24px;
+    background-size: 36px 36px;
     bottom: 20%;
     cursor: pointer;
     display: none;
     filter: alpha(opacity = 40); /* IE < 8 */
-    height: 24px;
+    height: 36px;
     opacity: 0.5;
     position: fixed;
-    right: 40%;
-    width: 24px;
+    width: 36px;
 }
 
 #returnOnTop:hover {
@@ -113,6 +112,16 @@ p.header {
     text-decoration: underline;
     color: #43881C;
 }
+
+.doc-inser {
+    float: left;
+    width: 35%;
+    padding: 2%;
+    min-height: 70px;
+    margin: .5% 3% 1% 0;
+    background: #c8d4d8;
+    box-shadow: -2px 1px 13px rgba(35,31,32,0.75);
+    }
 
 /* =============================================
     FOOTER
@@ -1714,8 +1723,6 @@ abbr[title]:after {
 }
 
 
-
-
 /*
 * Don't show links for images, or javascript/internal links
 */
@@ -1759,4 +1766,5 @@ abbr[title]:after {
     h3 {
         page-break-after: avoid;
     }
+    
 }

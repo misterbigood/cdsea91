@@ -42,7 +42,12 @@ $actualites = new actualites('sais');
 					<article class="unit-66">
 						<h1><strong>sais</strong> accompagnement de l'adulte en situation de handicap</h1>
 						<p class="header">Le Service d'Accompagnement et d'Insertion Sociale, S.A.I.S., composé de 2 services, accompagne et héberge 41 personnes adultes présentant une déficience intellectuelle. Un Foyer Appartement – FOA – héberge 20 personnes et un Service d'Accompagnement à la Vie Sociale – SAVS – assure la prise en charge de 21 personnes.</p>
-						<p>Situé en centre-ville à Saint-Michel-sur-Orge, le foyer appartements FOA regroupe 7 logements associatifs collectifs et 2 studios individuels permettant l'hébergement de 20 personnes.</p>
+						<div class="doc-inser">
+                                                    <h4>Documentation</h4>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAIS/SAIS - Projet d'établissement.pdf">Projet d'établissement</a>
+                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#SAIS">Plus...</a></p>
+                                                </div>
+                                                <p>Situé en centre-ville à Saint-Michel-sur-Orge, le foyer appartements FOA regroupe 7 logements associatifs collectifs et 2 studios individuels permettant l'hébergement de 20 personnes.</p>
 						<p>Situé dans un rayon de 20 kms autour de Saint-Michel-sur-Orge, le Service d'Accompagnement à la Vie Sociale se compose de 18 logements dont les 21 personnes accueillies, célibataires ou en couple,  sont locataires ou propriétaires.</p>
 						<p>Les personnes accueillies doivent disposer d'une notification de décision en faveur du foyer appartement ou du service d'accompagnement à la vie sociale, délivrée par la Maison Départementale des Personnes Handicapées.</p>
 						<p>La durée de prise en charge est conditionnée par la date de validité de la décision MDPH.</p>

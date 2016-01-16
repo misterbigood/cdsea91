@@ -11,7 +11,7 @@
         <script>
                 $(document).ready( function () {
                     // Add return on top button
-                    $('#conteneur').append('<div id="returnOnTop" title="Retour en haut">&nbsp;</div>');
+                    $('#contenu').append('<div id="returnOnTop" title="Retour en haut">&nbsp;</div>');
 
                     // On button click, let's scroll up to top
                     $('#returnOnTop').click( function() {

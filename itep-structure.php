@@ -42,7 +42,12 @@ $actualites = new actualites('itep');
 					<article class="unit-66">
 						<h1><strong>ITEP et SESSAD</strong> rééducation des troubles du comportement</h1>
 						<p class="header">L'Institut Thérapeutique Educatif et Pédagogique de BRUNEHAUT (internat et externat) et son Service d'Education Spécialisée et de Soins à Domicile, prennent en charge des enfants de 6 à 16 ans présentant des troubles du comportement.</p>
-						<p>Situé dans un parc de 5 hectares, au cœur de la vallée classée de la Juine, l'Institut Thérapeutique Educatif et Thérapeutique du Château de BRUNEHAUT, à MORIGNY dans le sud du département de l'Essonne, bénéficie d'un agrément pour accueillir des garçons ou des filles âgés de 6 à 16 ans.</p>
+						<div class="doc-inser">
+                                                    <h4>Documentation</h4>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/ITEP/ITEP - Projet d'établissement.pdf">Projet d'établissement</a>
+                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#ITEP">Plus...</a></p>
+                                                </div>
+                                                <p>Situé dans un parc de 5 hectares, au cœur de la vallée classée de la Juine, l'Institut Thérapeutique Educatif et Thérapeutique du Château de BRUNEHAUT, à MORIGNY dans le sud du département de l'Essonne, bénéficie d'un agrément pour accueillir des garçons ou des filles âgés de 6 à 16 ans.</p>
 						<p>Les modalités de prise en charge s'organisent tout au long de l'année selon le rythme hebdomadaire d'un internat de 36 places ou le rythme quotidien d'un externat de 24 places.</p>
 						<p>Le travail avec les enfants s'articulent autour : du SOIN avec des rendez-vous réguliers auprès de psychologues et rééducateurs ; de l'ACCOMPAGNEMENT EDUCATIF au quotidien visant à promouvoir l'autonomie, la socialisation de l'enfant ; de l'ACQUISITION PEDAGOGIQUE grâce à une unité d'enseignement de l'Education Nationale intégrée à l'ITEP et SESSAD de BRUNEHAUT.</p>
 						<p>Les objectifs de ce travail sont de permettre l'élaboration d'un PROJET PERSONNALISE D'ACCOMPAGNEMENT évoluant chaque année selon les problématiques mais surtout les potentialités de chaque enfant afin de favoriser pour lui et le plus rapidement possible la réintégration vers un milieu ordinaire d'apprentissage.</p>

@@ -40,9 +40,15 @@ $actualites = new actualites('mecs');
                                 <?php $main_menu = new menu('page-nav', $page); ?>
 				<section id="contenu" class="units-row mecs">
 					<article class="unit-66">
+                                            
 						<h1><strong>MECS DE MORSANG</strong> protection de l'adolescent</h1>
 						<p class="header">La Maison d'Enfants à Caractère Social héberge, en internat ou en appartements partagés, 30 jeunes en difficulté âgés de 10 à 21 ans nécessitant un soutien éducatif continu.</p>
-						<p>Située dans un parc arboré de deux hectares proche du centre-ville de Morsang sur Orge, la Maison d'Adolescents est au carrefour des principaux axes de communication d'Epinay sur Orge, Villemoisson sur Orge et Sainte Geneviève des Bois.</p>
+                                                <div class="doc-inser">
+                                                    <h4>Documentation</h4>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/MECS/MECS - Projet d'établissement.pdf">Projet d'établissement</a>
+                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#MECS">Plus...</a></p>
+                                                </div>
+                                                <p>Située dans un parc arboré de deux hectares proche du centre-ville de Morsang sur Orge, la Maison d'Adolescents est au carrefour des principaux axes de communication d'Epinay sur Orge, Villemoisson sur Orge et Sainte Geneviève des Bois.</p>
 						<p>L'action de la Maison d'Adolescents se situe dans le cadre d'une mission de protection de l'enfance avec une habilitation de l'Aide Sociale à l'Enfance.</p>
 						<p>Les adolescents sont confiés à la Maison d'Adolescents pour une durée déterminée et renouvelable :</p>
 						<ul>

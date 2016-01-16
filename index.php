@@ -63,7 +63,12 @@ $actualites = new actualites('index');
 						<img src="images/photocdsea.jpg" height="147" width="280" alt="CDSEA" class="image-right">
 						<p>Le CDSEA est créé en 1970, sur l'initiative du président du Conseil Général de l'Essonne, afin de restructurer des établissements en difficulté sur les communes de Morigny (ITEP et SESSAD de Brunehaut), de Morsang-sur-Orge (MECS) et de porter des projets dans le champ médico-social.<br>La gouvernance du CDSEA sera assurée par le Conseil Général (administrateurs nommés par l'Assemblée Départementale) entre 1970 et 2007.</p>
 						<p>Sous un statut d'association à but non lucratif (Loi 1901), le CDSEA va restructurer les deux établissements dont la gestion lui est confiée et développer des activités dans les champs de la protection de l'enfance (Services d'Action Educative en Milieu Familial) et du handicap (Service d'Accompagnement et d'Insertion Sociale).</p>
-						<p>Le changement de statuts en 2007 repositionne l'association dans une dimension territoriale plus élargie avec des administrateurs moins dépendants du Conseil Général et représentant les acteurs de la société civile.<br>Une convention de partenariat avec les cinq autres Sauvegardes franciliennes est signée en 2008.</p>
+						<div class="doc-inser">
+                                                    <h4>Documentation</h4>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/CDSEA  Projet associatif 2014-2019.pdf">Projet associatif</a>
+                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#Association">Plus...</a></p>
+                                                </div>
+                                                <p>Le changement de statuts en 2007 repositionne l'association dans une dimension territoriale plus élargie avec des administrateurs moins dépendants du Conseil Général et représentant les acteurs de la société civile.<br>Une convention de partenariat avec les cinq autres Sauvegardes franciliennes est signée en 2008.</p>
 						<h2>Des valeurs</h2>
 						<ul id="valeurs">
 							<li><strong>Solidarité</strong>l'association oriente prioritairement son action au bénéfice des personnes les plus vulnérables et entend contribuer au projet de cohésion sociale sur son territoire d'intervention.</li>

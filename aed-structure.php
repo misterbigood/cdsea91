@@ -41,7 +41,12 @@ $actualites = new actualites('aed');
 					<article class="unit-66">
 						<h1><strong>S.A.E.M.F </strong>Service d'Aide Educative en milieu familial</h1>
 						<p class="header">Le Service d'Aide Educative en Milieu Familial propose un accompagnement visant à améliorer la situation de l'enfant au sein de sa famille.</p>
-						<p>Le Service d'Aide Educative en Milieu Familial, (S.A.E.M.F) exerce 920 mesures d'Aide Educative à Domicile, (A.E.D), qui lui sont confiées par le Conseil Général de l'Essonne, dans le cadre de sa politique de prévention et de protection de l'enfance.
+						<div class="doc-inser">
+                                                    <h4>Documentation</h4>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a>
+                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#SAEMF">Plus...</a></p>
+                                                </div>
+                                                <p>Le Service d'Aide Educative en Milieu Familial, (S.A.E.M.F) exerce 920 mesures d'Aide Educative à Domicile, (A.E.D), qui lui sont confiées par le Conseil Général de l'Essonne, dans le cadre de sa politique de prévention et de protection de l'enfance.
 Ces interventions sont décidées par les Inspecteurs de l'Aide Sociale à l'Enfance et concernent nominativement des enfants de 0 à 18 ans.</p>
 						<p>Installées en proximité des familles, les six antennes du  SAEMF sont actuellement situées à Grigny, Corbeil, Evry, Vigneux sur Seine, Saint Michel sur Orge et Savigny sur Orge.</p>
 						<p>L'aide éducative est attribuée soit à la demande des parents soit avec leur accord et s'engage dans le cadre d'une relation formalisée avec le service de l'Aide Sociale à l'Enfance.</p>
