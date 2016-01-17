@@ -117,10 +117,14 @@ p.header {
     float: left;
     width: 35%;
     padding: 2%;
-    min-height: 70px;
+    min-height: 60px;
     margin: .5% 3% 1% 0;
     background: #c8d4d8;
     box-shadow: -2px 1px 13px rgba(35,31,32,0.75);
+    border-radius: 5px;
+    }
+    .doc-inser p {
+        margin-bottom: 0;
     }
 
 /* =============================================
