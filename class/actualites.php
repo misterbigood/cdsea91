@@ -27,7 +27,8 @@ class actualites {
             $db->query($qry);
         else:
                 if($page == 'index'):
-			$qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='cdsea' ORDER BY date_publication DESC LIMIT 6";
+			//$qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='cdsea' ORDER BY date_publication DESC LIMIT 6";
+			$qry = "SELECT * FROM actualites WHERE actif='1' ORDER BY date_publication DESC LIMIT 6";
 			$db = new MySQL();
 			$db->Open();
 			$db->query($qry);
