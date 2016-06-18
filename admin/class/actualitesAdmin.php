@@ -12,7 +12,7 @@ class actualites
 	public $index_page; /* $this->index_page[$ID] */
 	
 	public $nbreActualites = '';
-	public $nbreActualitesParPage = 8; /* pour calcul de la pagination lors du renvoi vers le site */
+	public $nbreActualitesParPage = 6; /* pour calcul de la pagination lors du renvoi vers le site */
     
     function __construct()
     {

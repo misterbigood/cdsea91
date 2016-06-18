@@ -1,6 +1,6 @@
 #AuthUserFile /homez.605/cdsea/www/.htpasswd
 #AuthGroupFile /dev/null
-#AuthName "Acc�s restreint - Le site du CDSEA 91 sera prochainement accessible au public"
+#AuthName "Accès restreint - Le site du CDSEA 91 sera prochainement accessible au public"
 #AuthType Basic
 #require valid-user
 # Apache configuration file

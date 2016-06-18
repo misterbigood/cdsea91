@@ -39,7 +39,7 @@ class BDD
             $form->verif = "yes";
             $form->envoyerForm = 'lucky';
             $form->verifChampsVides('titre, html');
-			$form->maxi('intro', 200);
+			$form->maxi('intro', 150);
             if($form->envoyerForm == 'unlucky') {
                 $vars = "alerteMsg=" . $form->alerteMsg[0] . "&alerteChamp=" . $form->alerteChamp[0];
                 echo "<script type=\"text/javascript\">$('#divAjax').ajax({'url' : 'inc/ajoutActualites.php', 'vars': '" . $vars . "'});</script> \n";
@@ -64,9 +64,7 @@ class BDD
                     $date_publication = $a_date[2]."-".$a_date[1]."-".$a_date[0];
                     $date_publication .= ' '.date('H:i:s');*/
                 else:
-
                     $date_publication = date('Y-m-d H:i:s');
-
                 endif;
                 $insert['date_publication'] = MySQL::SQLValue($date_publication);
             	$insert['actif'] = MySQL::SQLValue($_POST['actif']);

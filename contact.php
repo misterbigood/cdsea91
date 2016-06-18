@@ -141,8 +141,8 @@ $formContact->txt = '<p><span class="alerte">*</span> <span class="small">obliga
 						</address>
 						<address>
 							<h3>Antenne de Grigny</h3>
-							<a href="https://www.google.com/maps/place/13+Place+de+la+Treille/@48.6519895,2.3706994,17z/data=!3m1!4b1!4m2!3m1!1s0x47e5dede49d477b3:0x38c90da723de9570" class="image-left gmap" target="_blank"><img src="images/Google-Maps-logo-Icon-Design.png" height="40" width="40" alt="Voir sur Google Maps"></a>
-						  	<p class="end">11-13 Place de la Treille - 91350 Grigny</p>
+							<a href="https://www.google.fr/maps/place/25+Rue+de+Schio,+91350+Grigny/@48.6569363,2.3775221,17z/data=!3m1!4b1!4m2!3m1!1s0x47e5df1db55f5aeb:0xb5f4735022c69685" class="image-left gmap" target="_blank"><img src="images/Google-Maps-logo-Icon-Design.png" height="40" width="40" alt="Voir sur Google Maps"></a>
+						  	<p class="end">25 rue de Schio - 91350 Grigny</p>
 						  	<p>Tel: 01 69 45 56 95 - Fax: 01 69 21 48 28</p>
 						</address>
 						<address>
