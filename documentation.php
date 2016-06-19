@@ -35,6 +35,12 @@ $actualites = new actualites('documentation');
   			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
+        <!-- Piwik -->
+<?php 
+
+include_once('header.php');
+
+?>
     </head>
     <body>
         <!--[if lt IE 8]>

@@ -27,6 +27,11 @@ include_once('class/offres_emploi.php');
   			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
+        <?php 
+
+include_once('header.php');
+
+?>
     </head>
     <body>
         <!--[if lt IE 8]>

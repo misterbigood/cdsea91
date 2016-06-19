@@ -5,6 +5,11 @@
         <title>Installation du cookie de non référence</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <?php 
+
+include_once('header.php');
+
+?>
     </head>
     <body>
         <h2>Afin de ne pas être suivi sur le site, merci de décocher la case ci-dessous</h2>
