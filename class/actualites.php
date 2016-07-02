@@ -28,18 +28,18 @@ class actualites {
         else:
                 if($page == 'index'):
 			//$qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='cdsea' ORDER BY date_publication DESC LIMIT 6";
-			$qry = "SELECT * FROM actualites WHERE actif='1' ORDER BY date_publication DESC LIMIT 6";
+			$qry = "SELECT * FROM actualites WHERE actif='1' AND date_publication<NOW() ORDER BY date_publication DESC LIMIT 6";
 			$db = new MySQL();
 			$db->Open();
 			$db->query($qry);
 		elseif($page <> ''):
-                        $qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='".$page."' ORDER BY date_publication DESC LIMIT 6";
+                        $qry = "SELECT * FROM actualites WHERE actif='1' AND rubrique='".$page."' AND date_publication<NOW() ORDER BY date_publication DESC LIMIT 6";
 			$db = new MySQL();
 			$db->Open();
 			$db->query($qry);
                 else:
 			$debut_qry = "SELECT * ";
-			$qry = " FROM actualites WHERE actif='1' ORDER BY date_publication DESC";
+			$qry = " FROM actualites WHERE actif='1' AND date_publication<NOW() ORDER BY date_publication DESC";
 			$adressePagination = 'actualites';
 			$db = new pagination();
 			$db->Open();
@@ -56,8 +56,8 @@ class actualites {
             $this->intro[] = nl2br($row->intro);
             $this->html[] = $row->html;
             $this->video[] = $row->video;
-			preg_match('`([0-9]{2})-([0-9]{2})-([0-9]{2}) ([0-9]{2}):([0-9]{2}):[0-9]{2}`', $row->date_publication, $out);
-			$this->dateActu[] = $out[3] . '/' . $out[2] . '/' . $out[1];
+            preg_match('`([0-9]{2})-([0-9]{2})-([0-9]{2}) ([0-9]{2}):([0-9]{2}):[0-9]{2}`', $row->date_publication, $out);
+            $this->dateActu[] = $out[3] . '/' . $out[2] . '/' . $out[1];
             $this->heureActu[] = $out[4] . 'h' . $out[5];
         }
 	}
