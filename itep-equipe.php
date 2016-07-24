@@ -167,7 +167,7 @@ include_once('header.php');
 
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
 
-									<p><strong>équipe</strong><br>6 Psychologues<br>1 Psychomotricienne<br>1 Orthophoniste<br>1 Infirmière</p>
+									<p><strong>équipe</strong><br>6 Psychologues<br>1 Psychomotricienne<br>2 Orthophonistes<br>1 Infirmière</p>
 
 								</div>
 
@@ -193,7 +193,7 @@ include_once('header.php');
 
 									<p><strong>équipe</strong><br>7 Agents Techniques</p>
 
-									<p class="//marge-negative">6 Agents de Service<br>3 Cuisiniers<br>4 Surveillants de nuit</p>
+									<p class="//marge-negative">4 Agents de Service<br>3 Cuisiniers<br>4 Surveillants de nuit</p>
 
 								</div>
 
