@@ -73,8 +73,8 @@ include_once('header.php');
 							<div class="unit-20 join-top">
 								<h3>ITEP & SESSAD</h3>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p><strong class="name">N.AGAMIS</strong> Directrice</p>
-									<p><strong class="name">L.RAMBURE</strong> Adjoint</p>
+									<p><strong class="name">A. BASSOT</strong> Directrice</p>
+									<p><strong class="name">L. RAMBURE</strong> Adjoint</p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
 									<p><strong class="name">K. HAUGUET<br>S. OUANANI</strong> <br>Chefs de service ITEP</p>
@@ -103,7 +103,7 @@ include_once('header.php');
                                                                 <div class="unit-33">
 									<h3 class="small">evry</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">B. DESPALLES</strong><br>Chef de service</p>
+										<p><strong class="name">C. COUDRAY</strong><br>Chef de service</p>
 									</div>
 								</div>
                                                                 <div class="unit-33">
@@ -121,7 +121,7 @@ include_once('header.php');
 								<div class="unit-33">
 									<h3 class="small">Savigny</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">C. COUDRAY</strong><br>Chef de service</p>
+										<p><strong class="name">B. IDRISS</strong><br>Chef de service</p>
 									</div>
 								</div>
 								<div class="unit-33">
