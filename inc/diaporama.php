@@ -1,5 +1,5 @@
 <?php
-if(preg_match('`aed|sais|itep|mecs`', $_GET['repertoire'])) {
+if(preg_match('`aed|sais|itep|mecs|cre`', $_GET['repertoire'])) {
 	include_once('../class/diaporama.php');
 	$diaporama = new diaporama($_GET['repertoire']);
 	$diaporama->afficher();

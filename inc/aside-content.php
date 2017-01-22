@@ -17,8 +17,11 @@
            
 	$class_contact = '';
 	$class_emploi = '';
+        $class_documentation = '';
 	if($page == 'cdsea-contact') $class_contact = ' class="menu-on"';
 	else if($page == 'cdsea-offres_emploi') $class_emploi = ' class="menu-on"';
+        else if($page== 'cdsea-documentation')$class_documentation = ' class="menu-on"';
 	?>
-	<a href="contact.html"<?php echo $class_contact; ?>><h3 class="iconimage iconimage-map">accès / contact</h3></a>        
+	<a href="contact.html"<?php echo $class_contact; ?>><h3 class="iconimage iconimage-map">accès / contact</h3></a>
+        <a href="documentation.html"<?php echo $class_documentation; ?>><h3 class="iconimage iconimage-map">documentation</h3></a>  
 </div>

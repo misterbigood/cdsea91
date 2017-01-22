@@ -40,6 +40,8 @@
 			<li><strong>CRE</strong></li>
 			<li><a href="cre-structure.html">La structure</a></li>
 			<li><a href="cre-equipe.html">L'équipe</a></li>
+                        <li><a href="cre-prospection.html">Pôle Prospection</a></li>
+                        <li><a href="cre-social.html">Pôle Social</a></li>
 		</ul>
 		</li>
 		<li class="end">

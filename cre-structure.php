@@ -48,7 +48,7 @@ include_once('header.php');
 						<h1><strong>C.R.E. </strong>Comité Relogement Essonne</h1>
 						<p class="header">Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.</p>
 						
-                                                <p>Le Collectif Relogement Essonne défend le caractère universel du principe du droit au logement :</p>
+                                                <p><strong>Le Collectif Relogement Essonne défend le caractère universel du principe du droit au logement</strong> :</p>
                                                 <ul><li><strong>Par la promotion et la défense du droit au logement</strong></li></ul>
                                                 <p>Considérant que l&rsquo;obtention d’un logement est un facteur important d’insertion et d&rsquo;équilibre, le Collectif Relogement Essonne s&rsquo;est donné pour mission de faciliter l&rsquo;accès, l&rsquo;appropriation et le maintien  des personnes dans un logement autonome.</p>
                                                 <ul><li><strong>Par l&rsquo;application des lois en matière de logement, d’accès au droit commun et de lutte contre les exclusions</strong></li></ul>
@@ -71,9 +71,9 @@ include_once('header.php');
 					</article>
 
 					<aside class="unit-33">
-						<div id="diaporama" data-repertoire="cre">
+						<!--<div id="diaporama" data-repertoire="cre">
 							<noscript><img src="images/mecs/DSCN0320-bis.jpg" alt="MECS"></noscript>
-						</div>
+						</div>-->
 						<?php include_once('inc/aside-content.php'); ?>
 					</aside>
 

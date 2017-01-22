@@ -51,9 +51,9 @@ include_once('header.php');
                                                     <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a>
                                                     <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#CRE">Plus...</a></p>
                                                 </div>
-                                                <p>L’accompagnement social lié au logement est destiné aux ménages rencontrant des difficultés à accéder ou à se maintenir dans un logement. Ces difficultés peuvent être budgétaires, administratives, relationnelles ou d&rsquo;appropriation du logement et de l’environnement.</p>
+                                                <p><strong>L’accompagnement social lié au logement</strong> est destiné aux ménages rencontrant des difficultés à accéder ou à se maintenir dans un logement. Ces difficultés peuvent être budgétaires, administratives, relationnelles ou d&rsquo;appropriation du logement et de l’environnement.</p>
 <p>Elle s’inscrit sur le département de l&rsquo;Essonne et principalement en visite à domicile. Afin de rencontrer les personnes dans leur environnement, nous adaptons nos horaires de travail en fonction de leurs contraintes.</p>
-<p>Pour toutes familles suivies, nous prenons un temps d’évaluation afin de les accompagner au plus prés de leurs réalités et besoins.</p>
+<p>Pour toutes familles suivies, nous prenons un temps d’évaluation afin de les accompagner au plus près de leurs réalités et besoins.</p>
 <p>Ainsi, un projet socio éducatif se construit et se contractualise avec l&rsquo;ensemble des acteurs sociaux compétents.</p>
 <p>Nos actions peuvent différées en fonction des dispositifs (avant le relogement, lors de l’accès au logement ou dans le cadre du maintien dans les lieux) mais la finalité de nos accompagnements reste la même, <strong>l’autonomie du ménage dans une perspective d’insertion durable.</strong></p>
 <p>Nos champs d’intervention, ne sont pas exhaustifs mais s’inscrivent dans le domaine du logement :</p>
@@ -77,29 +77,29 @@ include_once('header.php');
 <li>Relation et négociation avec le bailleur pour valider le projet de maintien dans les lieux</li>
 <li>Connaissance des droits et devoirs du locataire et prise de conscience de la procédure d&rsquo;expulsion.</li>
 </ul>
-<h5>Témoignages :</h5>
-<p><em>Le CRE est intervenu car j’avais des difficultés financières. […] (il) a joué la médiation entre le bailleur et moi. Il m&rsquo;a guidé dans mes démarches. Sa capacité d&rsquo;écoute, sa présence, sa rigueur de jugement, ses conseils éclairés m’ont aidé.</em><br />
-Rose-Marie, 50 ans</p>
-<p><em>Elle venait me voir chez moi et ça c&rsquo;était un avantage.</em><br />
-Florence, 35 ans</p>
-<p><em>Le CRE a travaillé à mon rythme, rien ne m’était imposé.</em><br />
-Mamdiou, 25 ans</p>
-<p>&nbsp;</p>
-<p align="center"><em><b>FN AVDL 2014</b></em></p>
-<p><em>La mission FN AVDL Accompagnateur portée par le CRE et 4 opérateurs partenaires (AISH, Société de Saint Vincent de Paul, Communauté Jeunesse &#8211; Logis Mons et Oppélia &laquo;&nbsp;Les Buissonnets&nbsp;&raquo; perdure.</em></p>
-<p><em>Le réajustement des objectifs sur le réalisé 2013 a fait état d’une grande différence sur le nombre d’orientations de suivis Approfondis. Initialement, l’estimation portait sur 33 et finalement, 7 ont été réalisés alors même que c’est la mesure la plus financée. Pour rester cohérente avec le budget prévisionnel, la DDCS a augmenté les objectifs de manière proportionnelle au réalisé 2013 :</em></p>
+<h3>Témoignages</h3>
+<p style="font-style: italic">« Le CRE est intervenu car j’avais des difficultés financières. […] (il) a joué la médiation entre le bailleur et moi. Il m&rsquo;a guidé dans mes démarches. Sa capacité d&rsquo;écoute, sa présence, sa rigueur de jugement, ses conseils éclairés m’ont aidée. »</p>
+<p style="text-align: right">Rose-Marie, 50 ans</p>
+<p style="font-style: italic">« Elle venait me voir chez moi et ça c&rsquo;était un avantage. »</p>
+<p style="text-align: right">Florence, 35 ans</p>
+<p style="font-style: italic">« Le CRE a travaillé à mon rythme, rien ne m’était imposé. »</p>
+<p style="text-align: right">Mamdiou, 25 ans</p>
+
+<h3>FN AVDL 2014</h3>
+<p>La mission FN AVDL Accompagnateur portée par le CRE et 4 opérateurs partenaires (AISH, Société de Saint Vincent de Paul, Communauté Jeunesse &#8211; Logis Mons et Oppélia &laquo;&nbsp;Les Buissonnets&nbsp;&raquo; perdure.</p>
+<p>Le réajustement des objectifs sur le réalisé 2013 a fait état d’une grande différence sur le nombre d’orientations de suivis Approfondis. Initialement, l’estimation portait sur 33 et finalement, 7 ont été réalisés alors même que c’est la mesure la plus financée. Pour rester cohérente avec le budget prévisionnel, la DDCS a augmenté les objectifs de manière proportionnelle au réalisé 2013 :</p>
 <ul>
-<li><em>96 légers</em></li>
-<li><em>135 moyens</em></li>
-<li><em>20 approfondis</em></li>
+<li>96 légers</li>
+<li>135 moyens</li>
+<li>20 approfondis</li>
 </ul>
-<p><em>Les objectifs sont portés à 251 mesures à la place de 192.</em></p>
+<p>Les objectifs sont portés à 251 mesures à la place de 192.</p>
 					</article>
 
 					<aside class="unit-33">
-						<div id="diaporama" data-repertoire="cre">
+						<!--<div id="diaporama" data-repertoire="cre">
 							<noscript><img src="images/mecs/DSCN0320-bis.jpg" alt="MECS"></noscript>
-						</div>
+						</div>-->
 						<?php include_once('inc/aside-content.php'); ?>
 					</aside>
 

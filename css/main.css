@@ -475,7 +475,7 @@ h4,
     top: 150px;
 }
 
-#curseur-documentation {
+#curseur-cre {
     top: 188px;
 }
 
@@ -518,8 +518,8 @@ h4,
     opacity: .8;
 }
 
-#main-nav-documentation,
-.documentation-color {
+#main-nav-cre,
+.cre-color {
     background-color: #8c7a69;
     opacity: .8;
 }
@@ -564,13 +564,14 @@ h4,
     opacity: 1;
 }
 
-#main-nav-documentation:hover,
-#main-nav-documentation.on {
+#main-nav-cre:hover,
+#main-nav-cre.on {
     //background-color: #bb926e;
     //background-color: #e1e000;
     //color: #000607;
     opacity: 1;
 }
+
 
 /* =============================================
     PAGE NAV
