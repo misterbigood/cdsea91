@@ -35,6 +35,13 @@
 			<li><a href="aed-equipe.html">L'équipe</a></li>
 		</ul>
 		</li>
+                <li class="end">
+		<ul class="end">
+			<li><strong>CRE</strong></li>
+			<li><a href="cre-structure.html">La structure</a></li>
+			<li><a href="cre-equipe.html">L'équipe</a></li>
+		</ul>
+		</li>
 		<li class="end">
 			<ul class="end">
                             

@@ -363,7 +363,9 @@ h4,
 .banniere-sais {
     background: url(../images/banniere-sais.jpg) left 7px no-repeat;
 }
-
+.banniere-cre {
+    background: url(../images/banniere-cdsea.jpg) left 7px no-repeat;
+}
 #logo-wrapper {
     float: left;
     position: relative;
@@ -692,6 +694,10 @@ h4,
 }
 
 #contenu.aed li:before {
+    background-color: #E41316;
+}
+
+#contenu.cre li:before {
     background-color: #E41316;
 }
 

@@ -11,7 +11,7 @@ class menu {
 	public function __construct($element, $page) // $element = main-nav || page-nav
 	{
 		$this->element = $element;
-		preg_match('`(cdsea|mecs|itep|sais|aed|documentation)([-]?)([a-z_-]*)`', $page, $out);
+		preg_match('`(cdsea|mecs|itep|sais|aed|cre|documentation)([-]?)([a-z_-]*)`', $page, $out);
 		$this->main_page = $out[1]; // ex : cdsea
 		$this->s_page = $out[3]; // ex : association
 		if($this->element == 'main-nav') {
@@ -25,7 +25,7 @@ class menu {
 			$this->html .= $this->menu('itep-structure', '<span>rééducation des troubles du comportement</span>', 'itep');
 			$this->html .= $this->menu('sais-structure', '<span>accompagnement de l\'adulte en situation de handicap</span>', 'sais');
 			$this->html .= $this->menu('aed-structure', '<span>aide éducative en milieu familial</span>', 'aed');
-			$this->html .= $this->menu('documentation', '<span>documentation</span>', 'documentation');
+			$this->html .= $this->menu('cre-structure', '<span>accès au logement</span>', 'cre');
 			$this->html .= '</ul>' . " \n";
 			$this->html .= '</nav>' . " \n";
 		}
@@ -56,6 +56,12 @@ class menu {
 			else if($this->main_page == 'aed') {
 				$this->html .= $this->menu('aed-structure', 'Structure', 'structure');
 				$this->html .= $this->menu('aed-equipe', '&Eacute;quipe', 'equipe');
+			}
+                        else if($this->main_page == 'cre') {
+				$this->html .= $this->menu('cre-structure', 'Structure', 'structure');
+				$this->html .= $this->menu('cre-equipe', '&Eacute;quipe', 'equipe');
+                                $this->html .= $this->menu('cre-prospection', 'P&ocirc;le prospection', 'prospection');
+                                $this->html .= $this->menu('cre-social', 'P&ocirc;le social', 'social');
 			}
 			else if($this->main_page == 'documentation') {
 				$this->html .= $this->menu('documentation', 'Documentation', 'documentation');
