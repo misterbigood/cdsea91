@@ -824,6 +824,14 @@ p.obligatoire span, span.obligatoire {
 .width-100, .unit-100 {
 	width: 100%;
 }
+
+.width-95, .unit-95 {
+	width: 95%;
+}
+
+.width-83, .unit-83 {
+	width: 83.333%;
+}
 .width-80, .unit-80 {
 	width: 80%;
 }

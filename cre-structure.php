@@ -49,17 +49,18 @@ include_once('header.php');
 						<p class="header">Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.</p>
 						
                                                 <p><strong>Le Collectif Relogement Essonne défend le caractère universel du principe du droit au logement</strong> :</p>
+                                                <div class="doc-inser" style="float:right; margin: .5% 0 .8% 3%;">
+                                                    <h4>Documentation</h4>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/Traité de fusion CDSEA CRE signé.pdf">Traité de fusion CRE-CDSEA</a>
+                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#CRE">Plus...</a></p>
+                                                </div>
                                                 <ul><li><strong>Par la promotion et la défense du droit au logement</strong></li></ul>
                                                 <p>Considérant que l&rsquo;obtention d’un logement est un facteur important d’insertion et d&rsquo;équilibre, le Collectif Relogement Essonne s&rsquo;est donné pour mission de faciliter l&rsquo;accès, l&rsquo;appropriation et le maintien  des personnes dans un logement autonome.</p>
                                                 <ul><li><strong>Par l&rsquo;application des lois en matière de logement, d’accès au droit commun et de lutte contre les exclusions</strong></li></ul>
                                                 <p>Attentif et vigilant aux évolutions des politiques de logement, nous avons pour objectif principal de favoriser l’accès au logement et le maintien dans l’habitat de toute personne fragilisée par sa situation sociale ou économique.</p>
                                                 <ul><li><strong>Par la construction d’un réseau d’acteurs</strong></li></ul>
                                                 <p>Fort d&rsquo;un ancrage depuis plus de 30 ans sur le département, c&rsquo;est un souci permanent pour l&rsquo;association, d&rsquo;entretenir, de consolider et de développer des partenariats.</p></ul>
-                                                <div class="doc-inser">
-                                                    <h4>Documentation</h4>
-                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a>
-                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#CRE">Plus...</a></p>
-                                                </div>
+                                                
                                                 <p>Le Collectif Relogement Essonne privilégie l’acquisition du statut de locataire à toute solution transitoire ne peut être qu’une étape pour y accéder – et accorde une place particulière à la lutte contre toutes les formes de discrimination.</p>
                                                 <br/><p>Nos missions :</p>
                                                 <ul>

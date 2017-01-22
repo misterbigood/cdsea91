@@ -1043,11 +1043,11 @@ span.join-left {
 }
 
 .rateau-5-divs:before {
-    left: 25%;
+    left: 19.9%;
 }
 
 .rateau-5-divs:after {
-    left: 75%;
+    left: 80.1%;
 }
 
 .rateau-5-divs span {
@@ -1589,7 +1589,9 @@ li a.xlsx {
     height: 1px;
     margin: 0;
 }
-
+#organigramme h3.small {
+    font-size: .76em;
+}
 /* ==========================================================================
     Media Queries
    ========================================================================== */

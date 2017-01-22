@@ -46,12 +46,7 @@ include_once('header.php');
 				<section id="contenu" class="units-row cre">
 					<article class="unit-66">
 						<h1><strong>C.R.E. </strong>Pôle social</h1>
-						<div class="doc-inser">
-                                                    <h4>Documentation</h4>
-                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a>
-                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#CRE">Plus...</a></p>
-                                                </div>
-                                                <p><strong>L’accompagnement social lié au logement</strong> est destiné aux ménages rencontrant des difficultés à accéder ou à se maintenir dans un logement. Ces difficultés peuvent être budgétaires, administratives, relationnelles ou d&rsquo;appropriation du logement et de l’environnement.</p>
+						<p><strong>L’accompagnement social lié au logement</strong> est destiné aux ménages rencontrant des difficultés à accéder ou à se maintenir dans un logement. Ces difficultés peuvent être budgétaires, administratives, relationnelles ou d&rsquo;appropriation du logement et de l’environnement.</p>
 <p>Elle s’inscrit sur le département de l&rsquo;Essonne et principalement en visite à domicile. Afin de rencontrer les personnes dans leur environnement, nous adaptons nos horaires de travail en fonction de leurs contraintes.</p>
 <p>Pour toutes familles suivies, nous prenons un temps d’évaluation afin de les accompagner au plus près de leurs réalités et besoins.</p>
 <p>Ainsi, un projet socio éducatif se construit et se contractualise avec l&rsquo;ensemble des acteurs sociaux compétents.</p>

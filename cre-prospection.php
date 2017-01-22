@@ -46,12 +46,7 @@ include_once('header.php');
 				<section id="contenu" class="units-row cre">
 					<article class="unit-66">
 						<h1><strong>C.R.E. </strong>Pôle prospection</h1>
-						<div class="doc-inser">
-                                                    <h4>Documentation</h4>
-                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a>
-                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#CRE">Plus...</a></p>
-                                                </div>
-                                                <p><strong>Le pôle prospection reçoit les dossiers relatifs aux demandes de logement des personnes hébergées ponctuellement dans des structures</strong> telles que « les Centres d’Hébergement et de Réinsertion Sociale », « les Centres de Réfugiés Politiques », « les Centres de Demandeurs d’Asile », « les centres maternels », adhérentes à l’Association « Collectif Relogement Essonne ». <strong>Il a pour mission de soutenir les dossiers des demandeurs de logement</strong>.</p>
+						<p><strong>Le pôle prospection reçoit les dossiers relatifs aux demandes de logement des personnes hébergées ponctuellement dans des structures</strong> telles que « les Centres d’Hébergement et de Réinsertion Sociale », « les Centres de Réfugiés Politiques », « les Centres de Demandeurs d’Asile », « les centres maternels », adhérentes à l’Association « Collectif Relogement Essonne ». <strong>Il a pour mission de soutenir les dossiers des demandeurs de logement</strong>.</p>
 <p>Préalablement, avant toute démarche de prospection, chaque dossier fait l’objet d’une étude approfondie permettant ainsi d’orienter les recherches de logement en adéquation avec la situation sociale et les attentes des personnes concernées  en tenant compte des obligations des différents réservataires ,Etat, Collectivités Territoriales et bailleurs sociaux..</p>
 <p><strong>L’intervention des deux chargées de mission du Pôle Prospection </strong><strong> repose sur deux actions principales :</strong></p>
 <ul><li>la mobilisation de dispositifs prioritaires d&rsquo;accès au logement prévus dans le cadre du Plan Départemental d’Actions pour l’hébergement et le Logement des Personnes Défavorisées (Accord Collectif Départemental, mission fluidité CHRS, le Droit Au Logement Opposable) et le relogement des publics non prioritaire (droit commun)</li>

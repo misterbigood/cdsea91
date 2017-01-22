@@ -49,95 +49,108 @@ include_once('header.php');
 						<div class="unit-centered unit-40 join-bottom">
 							<div class="org-1 no-icon">
 								<h4 class="fonction">conseil d'administration</h4>
-								<p><strong class="name">M-C. CARVALHO</strong><br>Présidente</p>
+								<p>Présidente<br><strong class="name">M-C. CARVALHO</strong></p>
 							</div>
 						</div>
 						<h3 class="unit-centered join-top">siège</h3>
+                                                <p class="unit-centered">(4 salariés)<br>&nbsp;</p>
 						
 						
 						<div class="unit-centered unit-50 join-bottom org-1 no-icon">
 							<div class="unit-centered unit-90 join-bottom">
 								<div class="org-2  no-icon //iconpeople iconpeople-3">
-									<p><strong class="name">F.  MAMBRINI</strong><br>Directeur Général</p>
+									<p>Directeur Général<br><strong class="name">F.  MAMBRINI</strong></p>
 								</div>
 							</div>
 							<div class="unit-centered unit-90 join-top org-last">
 								<div class="org-3 no-icon //iconpeople iconpeople-2">
 									<p>1 comptable Responsable Ressources Humaines</p>
-									<p>1 comptable Responsable Contrôle de Gestion</p>
+									<p>1 comptable Responsable Administratif & Financier</p>
+                                                                        <p>1 assistante</p>
 								</div>
 							</div>
 						</div>
-						<div id="rateau" class="unit-centered width-80 rateau-cdsea"></div>
+                                                <div id="rateau" class="unit-centered width-83 rateau-5-divs"><span></span></div>
 						<div class="units-row units-split">
-							<div class="unit-20 join-top">
+							<div class="unit-16 join-top">
 								<h3>ITEP & SESSAD</h3>
+                                                                <p>(78 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p><strong class="name">A. BASSOT</strong> Directrice</p>
-									<p><strong class="name">L. RAMBURE</strong> Adjoint</p>
+									<p>Directrice<br><strong class="name">A. BASSOT</strong></p>
+									<p>Directeur adjoint<br><strong class="name">L. RAMBURE</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p><strong class="name">K. HAUGUET<br>S. OUANANI</strong> <br>Chefs de service ITEP</p>
-									<p><strong class="name">J. VALENS</strong> <br>Chef de service SESSAD</p>
+									<p>Chefs de service ITEP<br><strong class="name">K. HAUGUET<br>S. OUANANI</strong></p>
+									<p>Chef de service SESSAD<br><strong class="name">J. VALENS</strong></p>
 								</div>
 							</div>
-							<div class="unit-20 join-top">
+							<div class="unit-16 join-top">
 								<h3>MECS</h3>
+                                                                <p>(33 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p><strong class="name">JJ. ANTOINE</strong> Directeur</p>
+									<p>Directeur<br><strong class="name">JJ. ANTOINE</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-                                                                    <p><strong class="name">G. MALONGA<br>N. RODRIGUES</strong><br/>Chefs de service</p>
+                                                                    <p>Chefs de service<br><strong class="name">G. MALONGA<br>N. RODRIGUES</strong></p>
 								</div>
 							</div>
-							<div class="unit-40 join-top">
+							<div class="unit-33 join-top">
 								<h3>AED</h3>
-								<div class="org-3 no-icon unit-80 unit-centered //iconpeople iconpeople-3 ">
-									<p><strong class="name">C. REGNARD</strong> Directeur</p>
+                                                                <p>(60 salariés)</p>
+								<div class="org-3 no-icon unit-95 unit-centered //iconpeople iconpeople-3 ">
+									<p>Directeur<br><strong class="name">C. REGNARD</strong></p>
 								</div>
 								<div class="unit-33">
 									<h3 class="small">corbeil</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">M. A&Iuml;SSAOUI</strong><br>Chef de service</p>									</div>
+										<p>Chef de service<br><strong class="name">M. A&Iuml;SSAOUI</strong></p>									</div>
 								</div>
                                                                 <div class="unit-33">
 									<h3 class="small">evry</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">C. COUDRAY</strong><br>Chef de service</p>
+										<p>Chef de service<br><strong class="name">C. COUDRAY</strong></p>
 									</div>
 								</div>
                                                                 <div class="unit-33">
 									<h3 class="small">grigny</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">B. HANS</strong><br>Chef de service</p>
+										<p>Chef de service<br><strong class="name">B. HANS</strong></p>
 									</div>
 								</div>
                                                                 <div class="unit-33">
 									<h3 class="small">saint michel</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">G. BOISEAU</strong><br>Chef de service</p>
+										<p>Chef de service<br><strong class="name">G. BOISEAU</strong></p>
 									</div>
 								</div>
 								<div class="unit-33">
 									<h3 class="small">Savigny</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">B. IDRISS</strong><br>Chef de service</p>
+										<p>Chef de service<br><strong class="name">B. IDRISS</strong></p>
 									</div>
 								</div>
 								<div class="unit-33">
 									<h3 class="small">vigneux</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p><strong class="name">C. VIOLEAU</strong><br>Chef de service</p>
+										<p>Chef de service<br><strong class="name">C. VIOLEAU</strong></p>
 									</div>
 								</div>
 							</div>
-							<div class="unit-20 join-top">
+							<div class="unit-16 join-top">
 								<h3>SAIS</h3>
+                                                                <p>(18 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p><strong class="name">J.LERICOLLAIS</strong> Directeur</p>
+									<p>Directeur<br><strong class="name">J.LERICOLLAIS</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p><strong class="name">B.DELAUNAY<br>I.AUBERT</strong> <br>Chefs de service</p>
+									<p>Chefs de service<br><strong class="name">B.DELAUNAY<br>I.AUBERT</strong></p>
+								</div>
+							</div>
+                                                    <div class="unit-16 join-top">
+								<h3>CRE</h3>
+                                                                <p>(18 salariés)</p>
+								<div class="org-3 no-icon //iconpeople iconpeople-3">
+									<p>Directrice<br><strong class="name">I. MEYER-DUSSART</strong></p>
 								</div>
 							</div>
 						</div>
