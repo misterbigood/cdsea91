@@ -62,13 +62,19 @@ class telechargements {
 
 	public function afficher($tri='nom')
 	{
-		$html = '';
+		$html = '<ul style="list-style-type: none;">';
            
                     
                     asort($this->repertoires['nom']);
                     foreach($this->repertoires['nom'] as $cle => $nom_repertoire) {
+                            if(isset($this->fichiers[$nom_repertoire]['nom']) && !empty($this->fichiers[$nom_repertoire]['nom']) && $nom_repertoire<>'offres') {
+                            $html.='<li style="display: inline-block; height: 1.5em; margin-right: 2.4em;"><a href="#'.$nom_repertoire.'">'.$nom_repertoire.'</a></li>';
+                            }
+                    }
+                    $html.='</ul>';
+                    foreach($this->repertoires['nom'] as $cle => $nom_repertoire) {
                             //$nom_repertoire = $this->repertoires['nom'][$i];
-                            if(isset($this->fichiers[$nom_repertoire]['nom']) && !empty($this->fichiers[$nom_repertoire]['nom'])) {
+                            if(isset($this->fichiers[$nom_repertoire]['nom']) && !empty($this->fichiers[$nom_repertoire]['nom']) && $nom_repertoire<>'offres') {
                                     $html .= '<article id="'.$nom_repertoire.'">' . " \n";
                                     if($nom_repertoire != 'racine') {
                                             $html .= '<h2>' . $nom_repertoire . '</h2>' . " \n";

@@ -1264,28 +1264,32 @@ address a:hover img {
     background-position: left -40px;
 }
 
+.iconimage-documentation:before {
+    background-position: left -120px;
+}
+
 .iconimage-map:before {
     background-position: left -80px;
 }
 
 .iconpeople-1:before {
-    background-position: left -120px;
+    background-position: left -160px;
 }
 
 .iconpeople-2:before {
-    background-position: left -168px;
+    background-position: left -208px;
 }
 
 .iconpeople-3:before {
-    background-position: left -216px;
+    background-position: left -256px;
 }
 
 .iconpeople-4:before {
-    background-position: left -264px;
+    background-position: left -304px;
 }
 
 .iconpeople-5:before {
-    background-position: left -312px;
+    background-position: left -352px;
 }
 
 /* =============================================

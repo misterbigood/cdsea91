@@ -23,5 +23,5 @@
         else if($page== 'cdsea-documentation')$class_documentation = ' class="menu-on"';
 	?>
 	<a href="contact.html"<?php echo $class_contact; ?>><h3 class="iconimage iconimage-map">accès / contact</h3></a>
-        <a href="documentation.html"<?php echo $class_documentation; ?>><h3 class="iconimage iconimage-map">documentation</h3></a>  
+        <a href="documentation.html"<?php echo $class_documentation; ?>><h3 class="iconimage iconimage-documentation">documentation</h3></a>  
 </div>
