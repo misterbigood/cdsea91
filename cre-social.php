@@ -9,7 +9,7 @@ $actualites = new actualites('cre');
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Comité Relogement Essonne - Pôle social</title>
+        <title>Collectif Relogement Essonne - Pôle social</title>
         <meta name="description" content="Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.">
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -45,7 +45,7 @@ include_once('header.php');
                                 <?php $main_menu = new menu('page-nav', $page); ?>
 				<section id="contenu" class="units-row cre">
 					<article class="unit-66">
-						<h1><strong>C.R.E. </strong>Pôle social</h1>
+						<h1><strong>C.R.E. </strong>Pôle Social</h1>
 						<p><strong>L’accompagnement social lié au logement</strong> est destiné aux ménages rencontrant des difficultés à accéder ou à se maintenir dans un logement. Ces difficultés peuvent être budgétaires, administratives, relationnelles ou d&rsquo;appropriation du logement et de l’environnement.</p>
 <p>Elle s’inscrit sur le département de l&rsquo;Essonne et principalement en visite à domicile. Afin de rencontrer les personnes dans leur environnement, nous adaptons nos horaires de travail en fonction de leurs contraintes.</p>
 <p>Pour toutes familles suivies, nous prenons un temps d’évaluation afin de les accompagner au plus près de leurs réalités et besoins.</p>
@@ -79,16 +79,6 @@ include_once('header.php');
 <p style="text-align: right">Florence, 35 ans</p>
 <p style="font-style: italic">« Le CRE a travaillé à mon rythme, rien ne m’était imposé. »</p>
 <p style="text-align: right">Mamdiou, 25 ans</p>
-
-<h3>FN AVDL 2014</h3>
-<p>La mission FN AVDL Accompagnateur portée par le CRE et 4 opérateurs partenaires (AISH, Société de Saint Vincent de Paul, Communauté Jeunesse &#8211; Logis Mons et Oppélia &laquo;&nbsp;Les Buissonnets&nbsp;&raquo; perdure.</p>
-<p>Le réajustement des objectifs sur le réalisé 2013 a fait état d’une grande différence sur le nombre d’orientations de suivis Approfondis. Initialement, l’estimation portait sur 33 et finalement, 7 ont été réalisés alors même que c’est la mesure la plus financée. Pour rester cohérente avec le budget prévisionnel, la DDCS a augmenté les objectifs de manière proportionnelle au réalisé 2013 :</p>
-<ul>
-<li>96 légers</li>
-<li>135 moyens</li>
-<li>20 approfondis</li>
-</ul>
-<p>Les objectifs sont portés à 251 mesures à la place de 192.</p>
 					</article>
 
 					<aside class="unit-33">

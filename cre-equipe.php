@@ -6,8 +6,8 @@ include_once('class/menu.php');
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Comité Relogement Essonne - L'équipe</title>
-        <meta name="description" content="L'équipe du Comité Relogement Essonne">
+        <title>Collectif Relogement Essonne - L'équipe</title>
+        <meta name="description" content="L'équipe du Collectif Relogement Essonne">
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">

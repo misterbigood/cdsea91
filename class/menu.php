@@ -60,8 +60,8 @@ class menu {
                         else if($this->main_page == 'cre') {
 				$this->html .= $this->menu('cre-structure', 'Structure', 'structure');
 				$this->html .= $this->menu('cre-equipe', '&Eacute;quipe', 'equipe');
-                                $this->html .= $this->menu('cre-prospection', 'P&ocirc;le prospection', 'prospection');
-                                $this->html .= $this->menu('cre-social', 'P&ocirc;le social', 'social');
+                                $this->html .= $this->menu('cre-prospection', 'P&ocirc;le Appui au Relogement', 'prospection');
+                                $this->html .= $this->menu('cre-social', 'P&ocirc;le Social', 'social');
 			}
 			else if($this->main_page == 'documentation') {
 				$this->html .= $this->menu('documentation', 'Documentation', 'documentation');

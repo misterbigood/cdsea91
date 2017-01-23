@@ -9,7 +9,7 @@ $actualites = new actualites('cre');
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Comité Relogement Essonne - La Structure</title>
+        <title>Collectif Relogement Essonne - La Structure</title>
         <meta name="description" content="Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.">
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -45,7 +45,7 @@ include_once('header.php');
                                 <?php $main_menu = new menu('page-nav', $page); ?>
 				<section id="contenu" class="units-row cre">
 					<article class="unit-66">
-						<h1><strong>C.R.E. </strong>Comité Relogement Essonne</h1>
+						<h1><strong>C.R.E. </strong>Collectif Relogement Essonne</h1>
 						<p class="header">Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.</p>
 						
                                                 <p><strong>Le Collectif Relogement Essonne défend le caractère universel du principe du droit au logement</strong> :</p>
