@@ -6,7 +6,7 @@
         <!-- Emplacement offres d'emploi -->
         <a href="actualites.html"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <li><a href='./documentation/offres/54 - CRE - Chargé ASLL.pdf'>CRE - Chargé(e) d'accompagnement social lié au logement</a></li>
+            <?php if(date("Y-m-d")<"2017-03-24"):?><li><a href='./documentation/offres/54 - CRE - Chargé ASLL.pdf'>CRE - Chargé(e) d'accompagnement social lié au logement</a></li><?php endif;?>
             <li><a href='./documentation/offres/53 - MECS - Coordinateur.pdf'>MECS - Un(e) coordinateur(rice) d'équipe</a></li>
         </ul>
         <!-- Fin emplacement offres d'emploi -->
