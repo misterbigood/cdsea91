@@ -8,7 +8,6 @@
         <ul>
             <li><a href='./documentation/offres/54 - CRE - Chargé ASLL.pdf'>CRE - Chargé(e) d'accompagnement social lié au logement</a></li>
             <li><a href='./documentation/offres/53 - MECS - Coordinateur.pdf'>MECS - Un(e) coordinateur(rice) d'équipe</a></li>
-            <li><a href='./documentation/offres/52 - ITEP - Educateur.pdf'>ITEP - Educateur spécialisé (H/F)</a></li>
         </ul>
         <!-- Fin emplacement offres d'emploi -->
 	<?php if($actualites->nbre() > 0) {
