@@ -6,7 +6,7 @@
         <!-- Emplacement offres d'emploi -->
         <a href="actualites.html"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <?php if(date("Y-m-d")<"2017-03-24"):?><li><a href='./documentation/offres/54 - CRE - Chargé ASLL.pdf'>CRE - Chargé(e) d'accompagnement social lié au logement</a></li><?php endif;?>
+            <?php if(date("Y-m-d")<"2017-07-01"):?><li><a href='./documentation/offres/55 - ITEP - OE multiples.pdf'>ITEP - Plusieurs postes à pourvoir</a></li><?php endif;?>
         </ul>
         <!-- Fin emplacement offres d'emploi -->
 	<?php if($actualites->nbre() > 0) {
