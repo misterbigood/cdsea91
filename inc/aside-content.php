@@ -4,11 +4,10 @@
 		<p id="recherche-form"><input name="query" type="text" size="18" class="recherche-input" placeholder="Rechercher"><button name="envoyer" type="submit" class="loupeBtn"><img src="images/btn-recherche.png" width="30" height="30" alt="rechercher"></button></p>
         </form>
         
-        <a href="actualites.html"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
+        <!--<a href="actualites.html"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <?php if(date("Y-m-d")<"2017-06-20"):?><li><a href='./documentation/offres/56 - ITEP - ES.pdf'>ITEP - Educateur internat</a></li><?php endif;?>
-            <?php if(date("Y-m-d")<"2017-07-31"):?><li><a href='./documentation/offres/57 - ITEP - Poste CS.pdf'>ITEP - Chef de service</a></li><?php endif;?>
-        </ul>
+            <?php //if(date("Y-m-d")<"2017-06-20"):?><li><a href='./documentation/offres/57 - ITEP - ES.pdf'>ITEP - Educateur internat</a></li><?php //endif;?>
+        </ul>-->
          
 	<?php if($actualites->nbre() > 0) {
 		echo '<a href="actualites.html"><h3 class="iconimage iconimage-news">actualités</h3></a>' . " \n";
