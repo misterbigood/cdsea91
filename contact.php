@@ -151,8 +151,8 @@ include_once('header.php');
 						</address>
 						<address>
 							<h3>Antenne de Corbeil</h3>
-							<a href="https://www.google.com/maps/place/9+Avenue+de+Chantemerle/@48.6107164,2.4721559,17z/data=!3m1!4b1!4m2!3m1!1s0x47e5e72d0302ccc1:0x9c9c42709827a7df" class="image-left gmap" target="_blank"><img src="images/Google-Maps-logo-Icon-Design.png" height="40" width="40" alt="Voir sur Google Maps"></a>
-						   	<p class="end">8-9 rue Chantemerle - 91100 Corbeil Essonne</p>
+							<a href="https://www.google.com/maps/place/35+Avenue+Carnot,+91100+Corbeil-Essonnes,+France/@48.6098114,2.4756778,17z/data=!3m1!4b1!4m5!3m4!1s0x47e5e72a55715e39:0xc2912beb962d2dbc!8m2!3d48.6098079!4d2.4778665" class="image-left gmap" target="_blank"><img src="images/Google-Maps-logo-Icon-Design.png" height="40" width="40" alt="Voir sur Google Maps"></a>
+						   	<p class="end">35 avenue Carnot - 91100 Corbeil Essonne</p>
 						   	<p>Tel: 01 64 96 71 43 - Fax: 01 64 96 68 76</p>
 						</address>
 						<address>
