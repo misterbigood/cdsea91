@@ -3,12 +3,13 @@
 		<input type="hidden" name="search" value="1">
 		<p id="recherche-form"><input name="query" type="text" size="18" class="recherche-input" placeholder="Rechercher"><button name="envoyer" type="submit" class="loupeBtn"><img src="images/btn-recherche.png" width="30" height="30" alt="rechercher"></button></p>
         </form>
-        
+        <?php $date_max="2018-02-15"; ?>
+        <?php if (date("Y-m-d") < $date_max): ?>
         <a href="actualites.html"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <?php if(date("Y-m-d")<"2017-10-31"):?><li><a href='./documentation/offres/58 - MECS - Coordinateur.pdf'>MECS - Coordinateur(trice)</a></li><?php endif;?>
+            <?php if(date("Y-m-d")<$date_max):?><li><a href='./documentation/offres/59 - SAEMF - Chef de service.pdf'>SAEMF - Chef de service</a></li><?php endif;?>
         </ul>
-         
+        <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {
 		echo '<a href="actualites.html"><h3 class="iconimage iconimage-news">actualités</h3></a>' . " \n";
 		$actualites->afficherActusAccueil();
