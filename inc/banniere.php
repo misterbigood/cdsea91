@@ -4,7 +4,7 @@
         
 ?>
 <header id="banniere" class="banniere-<?php echo $class; ?>">
-	<a href="index.html"><div id="logo-wrapper"><img src="images/logo-cdsea.png" alt="CDSEA"></div></a>
+	<a href="index.html"><div id="logo-wrapper"><img src="images/logo_cdsea_web.jpg" alt="CDSEA"></div></a>
 	<?php $main_menu = new menu('main-nav', $page); ?>
 	<hr class="separation">
 </header>
