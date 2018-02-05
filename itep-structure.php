@@ -67,7 +67,8 @@ include_once('header.php');
 						<p>L'objectif des professionnels du SESSAD est de soutenir l'enfant dans son environnement scolaire et familial tout en lui permettant de développer ses potentialités. L'accompagnement s'effectue dans les lieux de vie de l'enfant mais également dans les locaux du SESSAD.</p>
 						<p>L'accompagnement, l'aide à la parentalité et la guidance parentale sont aussi proposés par l'équipe aux familles.</p>
                                                 <p>Pour permettre aux familles de participer activement à la vie sociale de l’ITEP de Brunehaut, nous avons mis en place un espace de consultation et de représentation des familles sous la forme d’un Conseil des parents. Sa présidente, 
-                                                    Madame Nathalie Cré, peut être contactée par les parents qui souhaitent avoir des renseignements via son adresse email : <a href="mailto:demibenji@live.fr">demibenji(at)live.fr</a>.</p>
+                                                    Madame Nathalie Cré, peut être contactée par les parents qui souhaitent avoir des renseignements via son adresse email : <a href="mailto:demibenji@live.fr">demibenji(at)live.fr</a> ou au 07.70.39.15.25.<br/>
+                                                    Vous pouvez également contacter Mme Robert: <a href="mailto:jeanluc.robert@neuf.fr">jeanluc.robert(at)neuf.fr</a> ou au 01.64.58.52.91.</p>
 					</article>
 
 					<aside class="unit-33">
