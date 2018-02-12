@@ -44,7 +44,38 @@ include_once('header.php');
 					<article id="organigramme">
 						<h1><strong>C.R.E. </strong>Comité Relogement Essonne</h1>
 						<h2>L'équipe</h2>
-						<p>Page en construction</p>
+						<p>&nbsp;</p>
+						<div class="unit-centered unit-40 join-bottom">
+							<div class="org-2 no-icon //iconpeople iconpeople-3">
+								<p><strong class="name">Jacques LERICOLLAIS</strong><br>Directeur</p>
+                                                                </div>
+						</div>
+                                                <div class="unit-centered unit-40 join-bottom">
+							<div class="org-2 no-icon //iconpeople iconpeople-3">
+								<p><strong class="name">I. AUBERT</strong><br>Chef de service</p>
+							</div>
+						</div>
+						<div id="rateau" class="unit-centered width-66 rateau-3-divs"></div>
+						<div class="units-row units-split">
+							<div class="unit-33 join-top">
+								<h3>Service éducatif</h3>
+								<div class="org-4 no-icon //iconpeople iconpeople-5">
+									<p><strong>équipe</strong><br>13 travailleurs sociaux</p>
+								</div>
+							</div>
+							<div class="unit-33 join-top">
+								<h3>Mission Appui au Relogement</h3>
+								<div class="org-4 no-icon //iconpeople iconpeople-5">
+									<p><strong>équipe</strong><br>2 Chargées de Mission</p>
+								</div>
+							</div>
+							<div class="unit-33 join-top">
+								<h3>Service Administratif</h3>
+								<div class="org-4 no-icon //iconpeople iconpeople-5">
+									<p><strong>équipe</strong><br>1 Secrétaire<br>1 comptable</p>
+								</div>
+							</div>
+						</div>
 						
 					</article>
 				</section> <!-- #contenu -->

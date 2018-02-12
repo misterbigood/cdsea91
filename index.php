@@ -95,8 +95,7 @@ $actualites = new actualites('index');
 							<dd class="unit-50"><span class="width-50">Vice-Président</span></dd>
 							<dt class="unit-50">Germaine PEYRONNET</dt>
 							<dd class="unit-50"><span class="width-50">Secrétaire</span></dd>
-							<dt class="unit-50">Béatrice PERIE</dt>
-							<dd class="unit-50"><span class="width-50">Trésorière</span></dd>
+							
 						</dl>
                                                 <h2>Les partenaires</h2>
 						<dl class="units-row" id="partenaires">

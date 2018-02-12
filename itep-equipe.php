@@ -129,7 +129,7 @@ include_once('header.php');
 
 									<div class="org-3 no-icon //iconpeople iconpeople-3">
 
-										<p><strong class="name">Karine HAUGUET<br>Smaïl OUANANI</strong></p><p class="//marge-negative">Chefs de Service</p>
+										<p><strong class="name">M. YASSEF<br>V. FLEURY</strong></p><p class="//marge-negative">Chefs de Service</p>
 
 									</div>
 

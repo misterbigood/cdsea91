@@ -64,9 +64,9 @@ include_once('header.php');
 							</div>
 							<div class="unit-centered unit-90 join-top org-last">
 								<div class="org-3 no-icon //iconpeople iconpeople-2">
-									<p>1 comptable Responsable Ressources Humaines</p>
-									<p>1 comptable Responsable Administratif & Financier</p>
-                                                                        <p>1 assistante</p>
+                                                                    <p>1 comptable Responsable Ressources Humaines<br><strong class="name">E. TEIXEIRA</strong></p>
+									<p>1 comptable Responsable Administratif & Financier<br><strong class="name">F. FERREIRA</strong></p>
+                                                                        <p>1 assistante comptable<br><strong class="name">L. CORTI</strong></p>
 								</div>
 							</div>
 						</div>
@@ -80,7 +80,7 @@ include_once('header.php');
 									<p>Directeur adjoint<br><strong class="name">L. RAMBURE</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p>Chefs de service ITEP<br><strong class="name">K. HAUGUET<br>S. OUANANI</strong></p>
+									<p>Chefs de service ITEP<br><strong class="name">M. YASSEF<br>V. FLEURY</strong></p>
 									<p>Chef de service SESSAD<br><strong class="name">J. VALENS</strong></p>
 								</div>
 							</div>
@@ -89,9 +89,10 @@ include_once('header.php');
                                                                 <p>(33 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 									<p>Directeur<br><strong class="name">JJ. ANTOINE</strong></p>
+                                                                        <p>Directrice adjointe<br><strong class="name">G. MALONGA</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-                                                                    <p>Chefs de service<br><strong class="name">G. MALONGA<br>N. RODRIGUES</strong></p>
+                                                                    <p>Coordinatrices équipes éducatives<br><strong class="name">G. GOMES<br>C. SZENFELD</strong></p>
 								</div>
 							</div>
 							<div class="unit-33 join-top">
@@ -140,17 +141,20 @@ include_once('header.php');
 								<h3>SAIS</h3>
                                                                 <p>(18 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p>Directeur<br><strong class="name">J.LERICOLLAIS</strong></p>
+									<p>Directeur<br><strong class="name">J. LERICOLLAIS</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p>Chefs de service<br><strong class="name">B.DELAUNAY<br>I.AUBERT</strong></p>
+									<p>Chefs de service<br><strong class="name">B. DELAUNAY<br>I. AUBERT</strong></p>
 								</div>
 							</div>
                                                     <div class="unit-16 join-top">
 								<h3>CRE</h3>
                                                                 <p>(18 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p>Directrice<br><strong class="name">I. MEYER-DUSSART</strong></p>
+									<p>Directeur<br><strong class="name">J. LERICOLLAIS</strong></p>
+								</div>
+                                                                <div class="org-4 no-icon //iconpeople iconpeople-2">
+									<p>Chef de service<br><strong class="name">I. AUBERT</strong></p>
 								</div>
 							</div>
 						</div>
