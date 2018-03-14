@@ -47,7 +47,7 @@ include_once('header.php');
 					<article class="unit-66">
                                             
 						<h1><strong>MECS DE MORSANG</strong> protection de l'adolescent</h1>
-						<p class="header">La Maison d'Enfants à Caractère Social héberge, en internat ou en appartements partagés, 30 jeunes en difficulté âgés de 10 à 21 ans nécessitant un soutien éducatif continu.</p>
+						<p class="header">La Maison d'Enfants à Caractère Social héberge, en internat ou en appartements partagés, 36 jeunes en difficulté âgés de 14 à 21 ans nécessitant un soutien éducatif continu.</p>
                                                 <div class="doc-inser">
                                                     <h4>Documentation</h4>
                                                     <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/MECS/MECS - Projet d'établissement.pdf">Projet d'établissement</a>
@@ -69,7 +69,7 @@ include_once('header.php');
 							<li>Les inscrire dans la vie locale en leur donnant accès aux activités culturelles, sportives et de loisirs ;</li>
 							<li>Soutenir leurs parents pendant toute la durée du placement afin de les aider à développer leurs compétences éducatives et à construire de nouvelles relations avec leur enfant.</li>
 						</ul>
-						<p>Les adolescents sont hébergés toute l'année, en fonction des droits de leurs parents, au sein d'une unité collective de 24 adolescents ou en appartements partagés pour les jeunes femmes majeures.</p>
+						<p>Les adolescents sont hébergés toute l'année, en fonction des droits de leurs parents, au sein d'une unité collective de 24 adolescents ou en appartements partagés pour des jeunes de 16 ans et plus ainsi que des jeunes majeurs.</p>
 						<p>La Maison d'Adolescents veille à une continuité de la prise en charge, y compris pendant les périodes d'absence des jeunes.</p>
 					</article>
 	
