@@ -68,7 +68,7 @@ include_once('header.php');
                                                 <li>Permettre le maintien dans le logement des personnes en difficultés économiques et sociale</li>
                                                 <li>Mener des actions d&rsquo;ingénierie sociale, d&rsquo;animation des réseaux.</li>
                                                 </ul>
-                                                <p>Le Collectif Relogement Essonne rassemble des adhérents et est constitué d&rsquo;un Pôle Prospection et d&rsquo;un Pôle Social.</p>
+                                                <p>Le Collectif Relogement Essonne est un opérateur historique dans la mise en œuvre de la politique d’insertion par le logement sur le territoire Essonnien. Il est doté d’un p&ocirc;le « Appui au relogement » destiné à renforcer l’action des travailleurs sociaux.</p>
 					</article>
 
 					<aside class="unit-33">
