@@ -22,8 +22,11 @@
 	else if($page == 'cdsea-offres_emploi') $class_emploi = ' class="menu-on"';
         else if($page== 'cdsea-documentation')$class_documentation = ' class="menu-on"';
 	?>
-        <h4>Diaporama des <a href="http://www.cdsea91.fr/itep-diaporama-2017.html">dessins des enfants de l'ITEP</a></h4>
+        <h4>Le SAEMF donne la parole aux parents: <a href="http://www.cdsea91.fr/aed-media.html">quatre extraits</a> ou <a class="video" href="https://www.youtube.com/watch?v=1d84QiLy5QU&t=192s&list=PLlCxHYFy8GZFE96RSB4bHYoXnXp4_y_iY&index=2">Paroles de parents - Film complet</a>
+                                                    </h4>
+        <br><h4>Diaporama des <a href="http://www.cdsea91.fr/itep-diaporama-2017.html">dessins des enfants de l'ITEP</a></h4>
     <br>
+        
 	<a href="contact.html"<?php echo $class_contact; ?>><h3 class="iconimage iconimage-map">accès / contact</h3></a>
         <a href="documentation.html"<?php echo $class_documentation; ?>><h3 class="iconimage iconimage-documentation">documentation</h3></a>  
 </div>

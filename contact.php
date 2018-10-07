@@ -20,7 +20,7 @@ if($formContact->verif == "yes" and $formContact->envoyerForm == 'lucky') {
         $mail->AddAddress($destinataire[$_POST['sujet']]);
 	$mail->AddReplyTo($_POST['email']);
 	$mail->Subject='contact cdsea91.fr';
-	$mail->Body .='<div id="imgTop"><img src="http://www.cdsea91.fr/images/logo-cdsea-small.png" alt="cdsea" width="78px" height="100px" /></div>';
+	$mail->Body .='<div id="imgTop"><img src="http://www.cdsea91.fr/images/logo_cdsea_web.png" alt="cdsea" width="120px" height="63px" /></div>';
 	$mail->Body .='<div id="main">';
 	$mail->Body .='<h1>contact CDSEA</h1>';
 	$mail->addToTable('sujet : ', $_POST['request']);

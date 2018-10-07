@@ -49,7 +49,9 @@ include_once('header.php');
 						<p class="header">Le Service d'Aide Educative en Milieu Familial propose un accompagnement visant à améliorer la situation de l'enfant au sein de sa famille.</p>
 						<div class="doc-inser">
                                                     <h4>Documentation</h4>
-                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a>
+                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAEMF/SAEMF - Projet de service.pdf">Projet de service</a><br>
+                                                    <a class="video" href="http://cdsea91.fr/aed-media.html">Paroles de parents - Consulter les vidéos</a>
+                                                    <a class="video" href="https://www.youtube.com/watch?v=1d84QiLy5QU&t=192s&list=PLlCxHYFy8GZFE96RSB4bHYoXnXp4_y_iY&index=2">Paroles de parents - Film complet</a>
                                                     <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#SAEMF">Plus...</a></p>
                                                 </div>
                                                 <p>Le Service d'Aide Educative en Milieu Familial, (S.A.E.M.F) exerce 920 mesures d'Aide Educative à Domicile, (A.E.D), qui lui sont confiées par le Conseil Général de l'Essonne, dans le cadre de sa politique de prévention et de protection de l'enfance.

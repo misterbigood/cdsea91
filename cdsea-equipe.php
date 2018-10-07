@@ -74,7 +74,7 @@ include_once('header.php');
 						<div class="units-row units-split">
 							<div class="unit-16 join-top">
 								<h3>ITEP & SESSAD</h3>
-                                                                <p>(78 salariés)</p>
+                                                                <p>(81 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 									<p>Directrice<br><strong class="name">A. BASSOT</strong></p>
 									<p>Directeur adjoint<br><strong class="name">L. RAMBURE</strong></p>
@@ -86,13 +86,13 @@ include_once('header.php');
 							</div>
 							<div class="unit-16 join-top">
 								<h3>MECS</h3>
-                                                                <p>(33 salariés)</p>
+                                                                <p>(35 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 									<p>Directeur<br><strong class="name">JJ. ANTOINE</strong></p>
                                                                         <p>Directrice adjointe<br><strong class="name">G. MALONGA</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-                                                                    <p>Coordinatrices équipes éducatives<br><strong class="name">G. GOMES<br>C. SZENFELD</strong></p>
+                                                                    <p>Coordinatrices équipe éducative<br><strong class="name">G. GOMES<br>C. SZENFELD</strong></p>
 								</div>
 							</div>
 							<div class="unit-33 join-top">
@@ -127,7 +127,7 @@ include_once('header.php');
 								<div class="unit-33">
 									<h3 class="small">Savigny</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p>Chef de service<br><strong class="name">B. IDRISS</strong></p>
+										<p>Chef de service<br><strong class="name">M. RODRIGUES</strong></p>
 									</div>
 								</div>
 								<div class="unit-33">
@@ -149,12 +149,12 @@ include_once('header.php');
 							</div>
                                                     <div class="unit-16 join-top">
 								<h3>CRE</h3>
-                                                                <p>(18 salariés)</p>
+                                                                <p>(16 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 									<p>Directeur<br><strong class="name">J. LERICOLLAIS</strong></p>
 								</div>
                                                                 <div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p>Chef de service<br><strong class="name">I. AUBERT</strong></p>
+									<p>Coordinatrice Equipe Educative<br><strong class="name">C. DAUBE</strong></p>
 								</div>
 							</div>
 						</div>

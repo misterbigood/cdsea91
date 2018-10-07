@@ -56,6 +56,7 @@ class menu {
 			else if($this->main_page == 'aed') {
 				$this->html .= $this->menu('aed-structure', 'Structure', 'structure');
 				$this->html .= $this->menu('aed-equipe', '&Eacute;quipe', 'equipe');
+                                $this->html .= $this->menu('aed-media', 'M&eacute;dias', 'media');
 			}
                         else if($this->main_page == 'cre') {
 				$this->html .= $this->menu('cre-structure', 'Structure', 'structure');
