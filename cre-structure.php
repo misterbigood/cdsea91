@@ -49,11 +49,11 @@ include_once('header.php');
 						<p class="header">Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.</p>
 						
                                                 <p><strong>Le Collectif Relogement Essonne défend le caractère universel du principe du droit au logement</strong> :</p>
-                                                <div class="doc-inser" style="float:right; margin: .5% 0 .8% 3%;">
+                                                <!--<div class="doc-inser" style="float:right; margin: .5% 0 .8% 3%;">
                                                     <h4>Documentation</h4>
                                                     <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/Traité de fusion CDSEA CRE signé.pdf">Traité de fusion CRE-CDSEA</a>
                                                     <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#CRE">Plus...</a></p>
-                                                </div>
+                                                </div>-->
                                                 <ul><li><strong>Par la promotion et la défense du droit au logement</strong></li></ul>
                                                 <p>Considérant que l&rsquo;obtention d’un logement est un facteur important d’insertion et d&rsquo;équilibre, le Collectif Relogement Essonne s&rsquo;est donné pour mission de faciliter l&rsquo;accès, l&rsquo;appropriation et le maintien  des personnes dans un logement autonome.</p>
                                                 <ul><li><strong>Par l&rsquo;application des lois en matière de logement, d’accès au droit commun et de lutte contre les exclusions</strong></li></ul>
