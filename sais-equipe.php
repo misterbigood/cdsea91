@@ -47,7 +47,7 @@ include_once('header.php');
 						<p>&nbsp;</p>
 						<div class="unit-centered unit-40 join-bottom">
 							<div class="org-2 no-icon //iconpeople iconpeople-3">
-								<p><strong class="name">Jacques LERICOLLAIS</strong><br>Directeur</p>
+								<p><strong class="name">Christophe VIOLEAU</strong><br>Directeur</p>
 							</div>
 						</div>
 						<div id="rateau" class="unit-centered width-80 rateau-5-divs"><span class="unit-centered width-50"></span></div>

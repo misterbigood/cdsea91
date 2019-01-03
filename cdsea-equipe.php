@@ -133,7 +133,7 @@ include_once('header.php');
 								<div class="unit-33">
 									<h3 class="small">vigneux</h3>
 									<div class="org-4 no-icon //iconpeople iconpeople-2">
-										<p>Chef de service<br><strong class="name">C. VIOLEAU</strong></p>
+										<p>Chef de service<br><strong class="name">N. MARIE-JULIE</strong></p>
 									</div>
 								</div>
 							</div>
@@ -141,7 +141,7 @@ include_once('header.php');
 								<h3>SAIS</h3>
                                                                 <p>(18 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p>Directeur<br><strong class="name">J. LERICOLLAIS</strong></p>
+									<p>Directeur<br><strong class="name">C. VIOLEAU</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
 									<p>Chefs de service<br><strong class="name">B. DELAUNAY<br>I. AUBERT</strong></p>
@@ -151,7 +151,7 @@ include_once('header.php');
 								<h3>CRE</h3>
                                                                 <p>(16 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p>Directeur<br><strong class="name">J. LERICOLLAIS</strong></p>
+									<p>Directeur<br><strong class="name">C. VIOLEAU</strong></p>
 								</div>
                                                                 <div class="org-4 no-icon //iconpeople iconpeople-2">
 									<p>Coordinatrice Equipe Educative<br><strong class="name">C. DAUBE</strong></p>

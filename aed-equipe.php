@@ -112,7 +112,7 @@ include_once('header.php');
 							<div class="unit-16 join-top">
 								<h3 class="small">VIGNEUX</h3>
 								<div class="org-3 no-icon //iconpeople iconpeople-2">
-									<p><strong class="name">Christophe VIOLEAU</strong><br>Chef de Service</p>
+									<p><strong class="name">Nadine MARIE-JULIE</strong><br>Chef de Service</p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
 									<p><strong>équipe</strong><br>1 Agent Administratif</p>
