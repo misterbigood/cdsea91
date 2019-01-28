@@ -12,6 +12,8 @@
                 $date_max[65]="2019-02-01";
                 $date_min[66]="2019-01-18";
                 $date_max[66]="2019-02-09";
+                $date_min[67]="2019-01-28";
+                $date_max[67]="2019-02-23";
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
@@ -27,6 +29,10 @@
         </ul>
          <ul>
             <?php if((date("Y-m-d") <= $date_max[66]) AND (date("Y-m-d") >= $date_min[66])):?><li><a href='./documentation/offres/66 - SAIS - Psychologue.pdf'>SAIS - Psychologue (H/F)</a></li><?php endif;?>
+        </ul>
+        
+         <ul>
+            <?php if((date("Y-m-d") <= $date_max[67]) AND (date("Y-m-d") >= $date_min[67])):?><li><a href='./documentation/offres/67 - MECS - Educateur(trice) spécialisé(e).pdf'>MECS - Educateur spécialisé (H/F)</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {

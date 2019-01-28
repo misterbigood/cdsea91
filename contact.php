@@ -11,7 +11,7 @@ if($formContact->verif == "yes" and $formContact->envoyerForm == 'lucky') {
 	include_once('class/mysql.php');
 	include_once('class/inlineCss/CSSQuery.php');
 	include_once('class/inlineCss/inlineStyle.php');
-        $destinataire = array('CDSEA'=>'siege@cdsea91.fr', 'MECS'=>'maison-ados@cdsea91.fr', 'ITEP'=>'itep@cdsea91.fr', 'SAIS'=>'sais@cdsea91.fr', 'SAEMF'=>'saemf@cdsea91.fr', 'CRE'=>'i.meyer-dussart@cre91.fr');
+        $destinataire = array('CDSEA'=>'siege@cdsea91.fr', 'MECS'=>'maison-ados@cdsea91.fr', 'ITEP'=>'itep@cdsea91.fr', 'SAIS'=>'sais@cdsea91.fr', 'SAEMF'=>'saemf@cdsea91.fr', 'CRE'=>'cvioleau@cdsea91.fr');
 	$mail = new PHPmailer();
 	$mail->IsHTML(true);
 	$mail->definirStyle('defaut');
