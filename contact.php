@@ -6,6 +6,7 @@ include_once('class/utils.php');
 $formContact = new form('formContact');
 $formContact->verifChampsVides('nom, prenom, email, msg');
 $formContact->verifMail('email');
+$formContact->verifCaptcha($adresse = 'class/captcha/captcha.php');
 if($formContact->verif == "yes" and $formContact->envoyerForm == 'lucky') {
 	include_once('class/phpmailer/class.phpmailer.php');
 	include_once('class/mysql.php');
@@ -35,6 +36,7 @@ if($formContact->verif == "yes" and $formContact->envoyerForm == 'lucky') {
 		$htmlInfoTop = $mail->ErrorInfo;
 	}
 	else $htmlInfoTop = '<div class="centre"><p>Votre message a été envoyé.<br>Nous vous remercions,<br>et recontacterons très prochainement.</p></div>' . " \n";
+        
 }
 $formContact->addInput('text', 'nom', '', 'nom : ', 'size=56, required=required');
 $formContact->addInput('text', 'prenom', '', 'prénom : ', 'size=56, required=required');
@@ -47,6 +49,8 @@ $formContact->addOption('sujet', 'SAEMF', 'SAEMF - Service d\'Aide Educative en 
 $formContact->addOption('sujet', 'CRE', 'CRE - Comité Relogement Essonne');
 $formContact->addSelect('sujet', 'sujet : ');
 $formContact->addTextarea('msg', '', 'message : ', 'cols=42, rows=4, required=required');
+$formContact->addCaptcha("class/captcha.php", '50'); //($classCaptchaAdress, $inputSize);
+$formContact->addAccessibiliteText('texte', 'adresseMail', 'imageArobase');
 $formContact->addSubmit('Envoyer', 'btn');
 $formContact->txt = '<p><span class="alerte">*</span> <span class="small">obligatoire</span></p>';
 ?>
