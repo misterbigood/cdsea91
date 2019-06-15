@@ -46,18 +46,18 @@ include_once('header.php');
 				<section id="contenu" class="units-row sais">
 					<article class="unit-66">
 						<h1><strong>sais</strong> accompagnement de l'adulte en situation de handicap</h1>
-						<p class="header">Le Service d'Accompagnement et d'Insertion Sociale, S.A.I.S., composé de 2 services, accompagne et héberge 41 personnes adultes présentant une déficience intellectuelle. Un Foyer Appartement – FOA – héberge 20 personnes et un Service d'Accompagnement à la Vie Sociale – SAVS – assure la prise en charge de 21 personnes.</p>
+						<p class="header">Le Service d'Accompagnement et d'Insertion Sociale, S.A.I.S. compte deux services: le Foyer d'hébergement (SAIS-FH) et le Service d'Accompagnement à la Vie Sociale (SAIS-SAVS). Il accompagne et héberge 44 personnes adultes présentant une déficience intellectuelle. Le SAIS-FH accueille 20 personnes et le SAIS-SAVS accompagne 24 personnes.</p>
 						<div class="doc-inser">
                                                     <h4>Documentation</h4>
                                                     <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/SAIS/SAIS - Projet d'établissement.pdf">Projet d'établissement</a>
                                                     <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#SAIS">Plus...</a></p>
                                                 </div>
-                                                <p>Situé en centre-ville à Saint-Michel-sur-Orge, le foyer appartements FOA regroupe 7 logements associatifs collectifs et 2 studios individuels permettant l'hébergement de 20 personnes.</p>
-						<p>Situé dans un rayon de 20 kms autour de Saint-Michel-sur-Orge, le Service d'Accompagnement à la Vie Sociale se compose de 18 logements dont les 21 personnes accueillies, célibataires ou en couple,  sont locataires ou propriétaires.</p>
-						<p>Les personnes accueillies doivent disposer d'une notification de décision en faveur du foyer appartement ou du service d'accompagnement à la vie sociale, délivrée par la Maison Départementale des Personnes Handicapées.</p>
+                                                <p>Situé à Saint-Michel-sur-Orge, le SAIS-FH regroupe 7 logements associatifs collectifs et 3 studios individuels permettant l'hébergement de 20 personnes.</p>
+						<p>Egalement situé à Saint-Michel-sur-Orge, le SAIS-SAVS accompagne 24 personnes, célibataires ou en couple, locataires ou propriétaires de leur logement. Les personnes accompagnées résident dans un périmètre de 20km autour des locaux du SAIS.</p>
+						<p>Les personnes accueillies doivent disposer d'une notification de décision en faveur du Foyer d'hébergement ou du service d'accompagnement à la vie sociale, délivrée par la Maison Départementale des Personnes Handicapées.</p>
 						<p>La durée de prise en charge est conditionnée par la date de validité de la décision MDPH.</p>
 						<p>Afin de pérenniser l'accompagnement, l'établissement assure le renouvellement des dossiers de prise en charge MDPH et Aide Sociale.</p>
-						<p>L'accompagnement socio-éducatif des adultes se réalise au domicile de la personne et au service. Il s'articule autour d'une aide et d'un soutien dans le champ de l'insertion sociale, de l'accès aux soins et du suivi médical. Cet accompagnement se concrétise par l'élaboration et la mise en œuvre de projets personnalisés réactualisés annuellement et validés par les représentants légaux. Ces projets s'appuient sur la prise en compte des personnes accueillies, de leur potentiel, de leurs besoins ainsi que des propositions du service. Les actions menées par le service concernent principalement :</p>
+						<p>L'accompagnement socio-éducatif des adultes se réalise au domicile de la personne et au service. Il s'articule autour d'une aide et d'un soutien dans le champ de l'insertion sociale, de l'accès aux soins et du suivi médical. Cet accompagnement se concrétise par l'élaboration et la mise en œuvre de projets personnalisés réactualisés annuellement et validés par les personnes accompagnées et/ou les représentants légaux. Ces projets s'appuient sur la prise en compte des personnes accueillies, de leur potentiel, de leurs besoins ainsi que des propositions du service. Les actions menées par le service concernent principalement :</p>
 						<h3>La vie quotidienne :</h3>
 						<ul>
 							<li>Assistance et/ou accompagnement dans l'accomplissement des activités de la vie domestique;</li>
@@ -80,7 +80,7 @@ include_once('header.php');
 						</ul>
 						<hr>
 						<p>Le service veille à la continuité de la prise en charge pendant les périodes d'absences (hospitalisation, vacances, séjours).</p>
-						<p>Afin de garantir un soutien de qualité, le service assure une astreinte téléphonique 24h/24 et 7j/7.</p>
+						<p>Afin de garantir la sécurité, la continuité et la qualité de l'accompagnement, le service assure une astreinte téléphonique 24h/24 et 7j/7.</p>
 					</article>
 					<aside class="unit-33">
 						<div id="diaporama" data-repertoire="sais">

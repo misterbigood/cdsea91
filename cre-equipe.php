@@ -60,7 +60,7 @@ include_once('header.php');
 							<div class="unit-33 join-top">
 								<h3>Service éducatif</h3>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
-									<p><strong>équipe</strong><br>13 travailleurs sociaux</p>
+									<p><strong>équipe</strong><br>12 travailleurs sociaux</p>
 								</div>
 							</div>
 							<div class="unit-33 join-top">
@@ -72,7 +72,7 @@ include_once('header.php');
 							<div class="unit-33 join-top">
 								<h3>Service Administratif</h3>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
-									<p><strong>équipe</strong><br>1 Secrétaire<br>1 comptable</p>
+									<p><strong>équipe</strong><br>1 Secrétaire</p>
 								</div>
 							</div>
 						</div>
