@@ -66,7 +66,7 @@ include_once('header.php');
 
         <![endif]-->
 
-		<?php include_once('inc/menu-fixed.php'); ?>
+		<?php //include_once('inc/menu-fixed.php'); ?>
 
 		<div id="footerWrapper">
 
@@ -106,8 +106,7 @@ include_once('header.php');
 
 							<div class="org-2 no-icon //iconpeople iconpeople-4">
 
-<p><strong class="name">Armelle BASSOT</strong><br>Directrice</p>								
-<p><strong class="name">Ludovic RAMBURE</strong><br>Directeur Adjoint</p>
+								<p><strong class="name">Armelle BASSOT</strong><br>Directrice</p>
 
 							</div>
 
@@ -129,7 +128,7 @@ include_once('header.php');
 
 									<div class="org-3 no-icon //iconpeople iconpeople-3">
 
-										<p><strong class="name">M. YASSEF<br>V. FLEURY</strong></p><p class="//marge-negative">Chefs de Service</p>
+										<p><strong class="name">Matthieu YASSEF<br>Valérie FLEURY</strong></p><p class="//marge-negative">Chefs de Service</p>
 
 									</div>
 
@@ -189,7 +188,12 @@ include_once('header.php');
 
 								<h3 class="small">Services Généraux</h3>
 
-								<div class="org-4 no-icon //iconpeople iconpeople-5">
+								<div class="org-3 no-icon //iconpeople iconpeople-3">
+
+										<p><strong class="name"></strong></p><p class="//marge-negative">Chef de Service</p>
+
+									</div>
+									<div class="org-4 no-icon //iconpeople iconpeople-5">
 
 									<p><strong>équipe</strong><br>7 Agents Techniques</p>
 

@@ -54,7 +54,7 @@ include_once('header.php');
 						<div class="units-row units-split sans-h3">
 							<div class="unit-20 join-top">
 								<div class="org-3 no-icon //iconpeople iconpeople-1">
-									<p><strong class="name">Brigitte DELAUNAY</strong><br>Chef de Service S.H.</p>
+									<p><strong class="name">Brigitte DELAUNAY</strong><br>Chef de Service SAIS-FH</p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
 									<p><strong>équipe</strong><br>6 Educateurs Spécialisés</p>
@@ -62,7 +62,7 @@ include_once('header.php');
 							</div>
 							<div class="unit-20 join-top">
 								<div class="org-3 no-icon //iconpeople iconpeople-1">
-									<p><strong class="name">Isabelle AUBERT</strong><br>Chef de Service S.A.</p>
+									<p><strong class="name">Isabelle AUBERT</strong><br>Chef de Service SAIS-SAVS</p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
 									<p><strong>équipe</strong><br>2 Educateurs</p>

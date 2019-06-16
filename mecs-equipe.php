@@ -47,21 +47,16 @@ include_once('header.php');
 						<p>&nbsp;</p>
 						<div class="unit-centered unit-40 join-bottom">
 							<div class="org-2 no-icon //iconpeople iconpeople-3">
-								<p><strong class="name">Jean-Jacques ANTOINE</strong><br>Directeur</p>
+								<p><strong class="name">Geneviève MALONGA</strong><br>Directrice</p>
                                                                 </div>
-						</div>
-                                                <div class="unit-centered unit-40 join-bottom">
-							<div class="org-2 no-icon //iconpeople iconpeople-3">
-								<p><strong class="name">Geneviève MALONGA</strong><br>Directrice Adjointe</p>
-							</div>
 						</div>
 						<div id="rateau" class="unit-centered width-75 rateau-4-divs"></div>
 						<div class="units-row units-split">
 							<div class="unit-25 join-top">
-								<h3>Coordinateurs</h3>
+								<h3>Service éducatif</h3>
 								<div class="org-3 no-icon //iconpeople iconpeople-4">
 									<p><strong class="name">Giovanna GOMES</strong><br>
-                                                                           <strong class="name">Caroline SZENFELD</strong><br>Coordinatrices équipes éducatives</p>
+                                                                           <strong class="name">Caroline SZENFELD</strong><br>Cheffes de service</p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
 									<p><strong>équipe</strong><br>17 éducateurs</p>

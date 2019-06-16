@@ -45,11 +45,8 @@ $actualites = new actualites('index');
 
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="chromeframe">Vous utilisez un navigateur préhistorique .... <a href="http://browsehappy.com/"> Pourquoi pas le mettre à jour maintenant ?</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installer Google Chrome Frame</a> pour profiter de toutes les fonctionnalités de ce site</p>
-        <![endif]-->
-		<?php /*include_once('inc/menu-fixed.php'); */ ?>
-		<div id="footerWrapper">
+        <?php /*include_once('inc/menu-fixed.php'); */ ?>
+		<div id="footerWrapper" >
 			<?php include_once('inc/banniere.php'); ?>
 			<div id="conteneur">
 
@@ -97,7 +94,7 @@ $actualites = new actualites('index');
 							<dd class="unit-50"><span class="width-50">Secrétaire</span></dd>
 							
 						</dl>
-                                                <h2>Les partenaires</h2>
+						<h2>Les partenaires</h2>
 						<dl class="units-row" id="partenaires">
 							<dt class="unit-16"><img src="images/partenaires/sauvegarde-yvelines.jpg" alt="La Sauvegarde des Yvelines" class="image-left"></dt><dd class="unit-33">La Sauvegarde des Yvelines<br><a href="http://www.sauvegarde-yvelines.org/">http://www.sauvegarde-yvelines.org/</a></dd>
 							<dt class="unit-16"><img src="images/partenaires/sauvegarde-paris.jpg" alt="La Sauvegarde de Paris" class="image-left"></dt><dd class="unit-33">La Sauvegarde de Paris<br><a href="http://www.sauvegarde-paris.fr/">http://www.sauvegarde-paris.fr/</a></dd>
@@ -110,12 +107,20 @@ $actualites = new actualites('index');
 							<dt class="unit-16 clear"><img src="images/partenaires/adapss.jpg" alt="L'ADAPSS" class="image-left"></dt><dd class="unit-33">L'ADAPSS<br><a href="http://www.adapss.fr/">http://www.adapss.fr/</a></dd>
 							<dt class="unit-16"><img src="images/partenaires/irfase.jpg" alt="L'IRFASE" class="image-left"></dt><dd class="unit-33">L'IRFASE<br><a href="http://www.irfase.com/">http://www.irfase.com/</a></dd>
 							<dt class="unit-16 clear"><img src="images/partenaires/andesi.jpg" alt="L'ANDESI" class="image-left"></dt><dd class="unit-33">L'ANDESI<br><a href="http://www.andesi.asso.fr/">http://www.andesi.asso.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/chemea_logo.png" alt="CHEMEA" class="image-left"></dt><dd class="unit-33">CHEMEA<br><a href="http://chemea.fr/">http://chemea.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/REAL.png" alt="CHEMEA" class="image-left"></dt><dd class="unit-33">REAL<br>Réseau Essonnien d'Accompagnement pour le Logement</dd>
 						</dl>
-                                                <h2>Les financeurs</h2>
-                                                <dl class="units-row" id="partenaires">
-                                                    <dt class="unit-50"><img src="images/conseil-general-essonne.png" alt="Conseil Départemental de l'Essonne" class="image-left"></dt>
-                                                    <dt class="unit-50"><img src="images/agence-regionale-de-sante.png" alt="Agence Régionale de Santé" class="image-left"></dt>
-                                                </dl>
+						<h2>Les financeurs</h2>
+						<dl class="units-row" id="partenaires">
+							<dt class="unit-16"><img src="images/conseil-general-essonne.png" alt="Conseil Départemental de l'Essonne" class="image-left"></dt><dd class="unit-33" style="text-align: left">Conseil Départemental de l'Essonne<br><a href="http://www.essonne.fr/">http://www.essonne.fr/</a></dd>
+							<dt class="unit-16"><img src="images/agence-regionale-de-sante.png" alt="Agence Régionale de Santé" class="image-left"></dt><dd class="unit-33" style="text-align: left">Agence Régionale de Santé<br><a href="https://www.iledefrance.ars.sante.fr/">https://www.iledefrance.ars.sante.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/DDCS.gif" alt="Direction Départementale de la Cohésion Sociale" class="image-left"></dt><dd class="unit-33" style="text-align: left">Direction Départementale de la Cohésion Sociale<br><a href="http://www.essonne.gouv.fr/Services-de-l-Etat/Presentation-des-services/Direction-Departementale-de-la-Cohesion-Sociale">http://www.essonne.gouv.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/FSL_91-couleur2.png" alt="GIP FSL 91" class="image-left"></dt><dd class="unit-33" style="text-align: left">GIP FSL 91<br><a href="http://www.essonne.fr/sante-social-solidarite/adultes-en-difficulte/relever-le-defi-du-logement/#le_fonds_de_solidarite_pour_le_logement_fsl">http://www.essonne.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/fondation abbé pierre.png" alt="Fondation Abbé Pierre" class="image-left"></dt><dd class="unit-33" style="text-align: left">Fondation Abbé Pierre<br><a href="https://www.fondation-abbe-pierre.fr/">https://www.fondation-abbe-pierre.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/brétigny.png" alt="Mairie de Brétigny" class="image-left"></dt><dd class="unit-33" style="text-align: left">Mairie de Brétigny-sur-Orge<br><a href="http://www.bretigny91.fr/">http://www.bretigny91.fr/</a></dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/action logement.png" alt="Action Logement" class="image-left"></dt><dd class="unit-33" style="text-align: left">Action Logement<br><a href="https://www.actionlogement.fr/">https://www.actionlogement.fr/</a></dd>
+							<dt class="unit-16"><img src="images/partenaires/fondation franco britannique.png" alt="Fondation franco-britannique de Sillery" class="image-left"></dt><dd class="unit-33" style="text-align: left">Fondation franco-britannique de Sillery<br><a href="http://www.ffbs-sillery.com/">http://www.ffbs-sillery.com/</a></dd>
+						</dl>
 					</article>
 
 					<aside class="unit-33">
