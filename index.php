@@ -108,7 +108,7 @@ $actualites = new actualites('index');
 							<dt class="unit-16"><img src="images/partenaires/irfase.jpg" alt="L'IRFASE" class="image-left"></dt><dd class="unit-33">L'IRFASE<br><a href="http://www.irfase.com/">http://www.irfase.com/</a></dd>
 							<dt class="unit-16 clear"><img src="images/partenaires/andesi.jpg" alt="L'ANDESI" class="image-left"></dt><dd class="unit-33">L'ANDESI<br><a href="http://www.andesi.asso.fr/">http://www.andesi.asso.fr/</a></dd>
 							<dt class="unit-16"><img src="images/partenaires/chemea_logo.png" alt="CHEMEA" class="image-left"></dt><dd class="unit-33">CHEMEA<br><a href="http://chemea.fr/">http://chemea.fr/</a></dd>
-							<dt class="unit-16 clear"><img src="images/partenaires/REAL.png" alt="CHEMEA" class="image-left"></dt><dd class="unit-33">REAL<br>Réseau Essonnien d'Accompagnement pour le Logement</dd>
+							<dt class="unit-16 clear"><img src="images/partenaires/REAL.PNG" alt="REAL" class="image-left"></dt><dd class="unit-33" style="text-align: left">REAL<br>Réseau Essonnien d'Accompagnement pour le Logement</dd>
 						</dl>
 						<h2>Les financeurs</h2>
 						<dl class="units-row" id="partenaires">
