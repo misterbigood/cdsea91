@@ -109,6 +109,7 @@ $actualites = new actualites('index');
 							<dt class="unit-16 clear"><img src="images/partenaires/andesi.jpg" alt="L'ANDESI" class="image-left"></dt><dd class="unit-33">L'ANDESI<br><a href="http://www.andesi.asso.fr/">http://www.andesi.asso.fr/</a></dd>
 							<dt class="unit-16"><img src="images/partenaires/chemea_logo.png" alt="CHEMEA" class="image-left"></dt><dd class="unit-33">CHEMEA<br><a href="http://chemea.fr/">http://chemea.fr/</a></dd>
 							<dt class="unit-16 clear"><img src="images/partenaires/REAL.PNG" alt="REAL" class="image-left"></dt><dd class="unit-33" style="text-align: left">REAL<br>Réseau Essonnien d'Accompagnement pour le Logement</dd>
+							<dt class="unit-16"><img src="images/partenaires/logo-federation-2017-2.png" alt="FAS" class="image-left"></dt><dd class="unit-33">Fédération des Acteurs de la Solidarité<br><a href="https://www.federationsolidarite.org/">https://www.federationsolidarite.org/</a></dd>
 						</dl>
 						<h2>Les financeurs</h2>
 						<dl class="units-row" id="partenaires">
