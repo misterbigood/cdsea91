@@ -4,20 +4,15 @@
 		<p id="recherche-form"><input name="query" type="text" size="18" class="recherche-input" placeholder="Rechercher"><button name="envoyer" type="submit" class="loupeBtn"><img src="images/btn-recherche.png" width="30" height="30" alt="rechercher"></button></p>
         </form>
         <?php   
-                $date_min[68]="2019-07-01";
-                $date_max[68]="2019-07-31";
-                $date_min[69]="2019-08-20";
-                $date_max[69]="2019-09-11";
+                $date_min[70]="2019-09-20";
+                $date_max[70]="2019-10-20";
                 
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
         <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <?php if((date("Y-m-d") <= $date_max[68]) AND (date("Y-m-d") >= $date_min[68])):?><li><a href='./documentation/offres/68 - MECS - Secrétaire.pdf'>MECS - Secrétaire (H/F) - CDD</a></li><?php endif;?>
-        </ul>
-        <ul>
-            <?php if((date("Y-m-d") <= $date_max[69]) AND (date("Y-m-d") >= $date_min[69])):?><li><a href='./documentation/offres/69 - ITEP - Educateur spécialisé H-F.pdf'>ITEP - Educateur spécialisé (H/F)</a></li><?php endif;?>
+            <?php if((date("Y-m-d") <= $date_max[70]) AND (date("Y-m-d") >= $date_min[70])):?><li><a href='./documentation/offres/70 - ITEP - Chef de service.pdf'>ITEP - Chef de service (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {
