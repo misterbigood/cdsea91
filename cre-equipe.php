@@ -52,7 +52,7 @@ include_once('header.php');
 						</div>
                                                 <div class="unit-centered unit-40 join-bottom">
 							<div class="org-2 no-icon //iconpeople iconpeople-3">
-								<p><strong class="name">C. DAUBE</strong><br>Coordinatrice Equipe Educative</p>
+								<p><strong class="name">C. DAUBE</strong><br>Coordinatrice</p>
 							</div>
 						</div>
 						<div id="rateau" class="unit-centered width-66 rateau-3-divs"></div>
@@ -60,7 +60,7 @@ include_once('header.php');
 							<div class="unit-33 join-top">
 								<h3>Service éducatif</h3>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
-									<p><strong>équipe</strong><br>12 travailleurs sociaux</p>
+									<p><strong>équipe</strong><br>11 travailleurs sociaux</p>
 								</div>
 							</div>
 							<div class="unit-33 join-top">

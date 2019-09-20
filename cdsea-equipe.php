@@ -58,7 +58,7 @@ include_once('header.php');
 						<div class="unit-centered unit-50 join-bottom org-1 no-icon">
 							<div class="unit-centered unit-90 join-bottom">
 								<div class="org-2  no-icon //iconpeople iconpeople-3">
-									<p>Directeur Général<br><strong class="name">F.  MAMBRINI</strong></p>
+									<p>Directrice Générale<br><strong class="name">C. AZEMARD</strong></p>
 								</div>
 							</div>
 							<div class="unit-centered unit-90 join-top org-last">
@@ -137,7 +137,7 @@ include_once('header.php');
 							</div>
 							<div class="unit-16 join-top">
 								<h3>SAIS</h3>
-                                                                <p>(17 salariés)</p>
+                                                                <p>(16 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 									<p>Directeur<br><strong class="name">C. VIOLEAU</strong></p>
 								</div>
@@ -147,12 +147,12 @@ include_once('header.php');
 							</div>
                                                     <div class="unit-16 join-top">
 								<h3>CRE</h3>
-                                                                <p>(17 salariés)</p>
+                                                                <p>(16 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 									<p>Directeur<br><strong class="name">C. VIOLEAU</strong></p>
 								</div>
                                                                 <div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p>Coordinatrice Equipe Educative<br><strong class="name">C. DAUBE</strong></p>
+									<p>Coordinatrice<br><strong class="name">C. DAUBE</strong></p>
 								</div>
 							</div>
 						</div>

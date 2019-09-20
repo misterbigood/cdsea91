@@ -83,7 +83,7 @@ include_once('header.php');
 							<div class="unit-20 join-top">
 								<h3 class="small">Service Administratif</h3>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
-									<p class="//marge-negative-2"><strong>équipe</strong><br>1 Secrétaire – Comptable<br>1 Comptable</p>
+									<p class="//marge-negative-2"><strong>équipe</strong><br>1 Secrétaire – Comptable</p>
 								</div>
 							</div>
 						</div>
