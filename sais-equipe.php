@@ -8,6 +8,7 @@ include_once('class/menu.php');
         <meta charset="utf-8">
         <title>SAIS - Accompagnement de l'Adulte Handicapé - L'équipe</title>
         <meta name="description" content="L'équipe SAIS - Accompagnement de l'Adulte Handicapé">
+		<meta name="keywords" content="foyer, hébergement, service, vie sociale, SAVS, handicap, déficience, adulte, accompagnement, protection" />
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">

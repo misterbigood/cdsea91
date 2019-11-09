@@ -6,13 +6,17 @@
         <?php   
                 $date_min[70]="2019-09-20";
                 $date_max[70]="2019-10-20";
-                
+                $date_min[71]="2019-11-09";
+                $date_max[71]="2019-11-30";
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
         <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
             <?php if((date("Y-m-d") <= $date_max[70]) AND (date("Y-m-d") >= $date_min[70])):?><li><a href='./documentation/offres/70 - ITEP - Chef de service.pdf'>ITEP - Chef de service (H/F) - CDI</a></li><?php endif;?>
+        </ul>
+        <ul>
+            <?php if((date("Y-m-d") <= $date_max[71]) AND (date("Y-m-d") >= $date_min[71])):?><li><a href='./documentation/offres/71 - MECS - Chef de service technique.pdf'>MECS - Chef de service technique (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {

@@ -11,7 +11,8 @@ $actualites = new actualites('cre');
         <meta charset="utf-8">
         <title>Collectif Relogement Essonne - La Structure</title>
         <meta name="description" content="Le CRE a pour mission de favoriser l'accès et le maintien dans le logement de personnes en situation d'exclusion ou de difficultés économiques et sociales.">
-        <meta name="viewport" content="initial-scale=1.0,width=device-width">
+        <meta name="keywords" content="logement, hébergement, insertion, dalo, avdl, asll, fsl, accompagnement, social, droit au logement, relogement" />
+		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
