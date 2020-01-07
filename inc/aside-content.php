@@ -4,19 +4,19 @@
 		<p id="recherche-form"><input name="query" type="text" size="18" class="recherche-input" placeholder="Rechercher"><button name="envoyer" type="submit" class="loupeBtn"><img src="images/btn-recherche.png" width="30" height="30" alt="rechercher"></button></p>
         </form>
         <?php   
-                $date_min[70]="2019-09-20";
-                $date_max[70]="2019-10-20";
-                $date_min[71]="2019-11-09";
-                $date_max[71]="2019-11-30";
+                $date_min[72]="2020-01-05";
+                $date_max[72]="2020-02-05";
+                $date_min[73]="2020-01-05";
+                $date_max[73]="2020-02-05";
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
         <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <?php if((date("Y-m-d") <= $date_max[70]) AND (date("Y-m-d") >= $date_min[70])):?><li><a href='./documentation/offres/70 - ITEP - Chef de service.pdf'>ITEP - Chef de service (H/F) - CDI</a></li><?php endif;?>
+            <?php if((date("Y-m-d") <= $date_max[72]) AND (date("Y-m-d") >= $date_min[72])):?><li><a href='./documentation/offres/72 - ITEP - Psychologue.pdf'>ITEP - Psychologue (H/F) - 50% ETP - CDI</a></li><?php endif;?>
         </ul>
         <ul>
-            <?php if((date("Y-m-d") <= $date_max[71]) AND (date("Y-m-d") >= $date_min[71])):?><li><a href='./documentation/offres/71 - MECS - Chef de service technique.pdf'>MECS - Chef de service technique (H/F) - CDI</a></li><?php endif;?>
+            <?php if((date("Y-m-d") <= $date_max[73]) AND (date("Y-m-d") >= $date_min[73])):?><li><a href='./documentation/offres/73 - ITEP - Psychomotricien.pdf'>ITEP - Psychomotricien (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {
