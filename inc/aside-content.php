@@ -8,15 +8,18 @@
                 $date_max[72]="2020-02-05";
                 $date_min[73]="2020-01-05";
                 $date_max[73]="2020-02-05";
+                $date_min[74]="2020-01-05";
+                $date_max[74]="2020-02-09";
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
         <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
             <?php if((date("Y-m-d") <= $date_max[72]) AND (date("Y-m-d") >= $date_min[72])):?><li><a href='./documentation/offres/72 - ITEP - Psychologue.pdf'>ITEP - Psychologue (H/F) - 50% ETP - CDI</a></li><?php endif;?>
-        </ul>
-        <ul>
+        
             <?php if((date("Y-m-d") <= $date_max[73]) AND (date("Y-m-d") >= $date_min[73])):?><li><a href='./documentation/offres/73 - ITEP - Psychomotricien.pdf'>ITEP - Psychomotricien (H/F) - CDI</a></li><?php endif;?>
+        
+            <?php if((date("Y-m-d") <= $date_max[73]) AND (date("Y-m-d") >= $date_min[73])):?><li><a href='./documentation/offres/74 - SAEMF - Educateur spécialisé.pdf'>SAEMF - Educateur spécialisé (H/F) - CDD</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {
