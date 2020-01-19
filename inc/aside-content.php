@@ -10,6 +10,8 @@
                 $date_max[73]="2020-02-05";
                 $date_min[74]="2020-01-05";
                 $date_max[74]="2020-02-09";
+                $date_min[75]="2020-01-18";
+                $date_max[75]="2020-02-15";
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
@@ -19,7 +21,9 @@
         
             <?php if((date("Y-m-d") <= $date_max[73]) AND (date("Y-m-d") >= $date_min[73])):?><li><a href='./documentation/offres/73 - ITEP - Psychomotricien.pdf'>ITEP - Psychomotricien (H/F) - CDI</a></li><?php endif;?>
         
-            <?php if((date("Y-m-d") <= $date_max[73]) AND (date("Y-m-d") >= $date_min[73])):?><li><a href='./documentation/offres/74 - SAEMF - Educateur spécialisé.pdf'>SAEMF - Educateur spécialisé (H/F) - CDD</a></li><?php endif;?>
+            <?php if((date("Y-m-d") <= $date_max[74]) AND (date("Y-m-d") >= $date_min[74])):?><li><a href='./documentation/offres/74 - SAEMF - Educateur spécialisé.pdf'>SAEMF - Educateur spécialisé (H/F) - CDD</a></li><?php endif;?>
+
+            <?php if((date("Y-m-d") <= $date_max[75]) AND (date("Y-m-d") >= $date_min[75])):?><li><a href='./documentation/offres/75 - MECS - Educateur spécialisé.pdf'>MECS - Educateur spécialisé (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php if($actualites->nbre() > 0) {
