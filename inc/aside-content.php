@@ -27,10 +27,10 @@
             <?php if((date("Y-m-d") <= $date_max[80]) AND (date("Y-m-d") >= $date_min[80])):?><li><a href='./documentation/offres/80 - ITEP - Educateur spécialisé.pdf'>ITEP - Educateur spécialisé (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
-	<?php if($actualites->nbre() > 0) {
+	<?php /* if($actualites->nbre() > 0) {
 		echo '<a href="actualites.html"><h3 class="iconimage iconimage-news">actualités</h3></a>' . " \n";
 		$actualites->afficherActusAccueil();
-	}
+	        }*/
            
 	$class_contact = '';
 	$class_emploi = '';
@@ -39,7 +39,7 @@
 	else if($page == 'cdsea-offres_emploi') $class_emploi = ' class="menu-on"';
         else if($page== 'cdsea-documentation')$class_documentation = ' class="menu-on"';
 	?>
-        <h4>Diaporama des <a href="http://www.cdsea91.fr/itep-diaporama-2017.html">dessins des enfants de l'ITEP</a></h4>
+        <!--<h4>Diaporama des <a href="http://www.cdsea91.fr/itep-diaporama-2017.html">dessins des enfants de l'ITEP</a></h4>-->
     <br>
 	<a href="contact.html"<?php echo $class_contact; ?>><h3 class="iconimage iconimage-map">accès / contact</h3></a>
         <a href="documentation.html"<?php echo $class_documentation; ?>><h3 class="iconimage iconimage-documentation">documentation</h3></a>  
