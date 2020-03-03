@@ -6,15 +6,17 @@
         <?php   
                
                 $date_min[76]="2020-02-16";
-                $date_max[76]="2020-03-15";
+                $date_max[76]="2020-03-31";
                 $date_min[77]="2020-02-24";
-                $date_max[77]="2020-02-25";
+                $date_max[77]="2020-03-31";
                 $date_min[78]="2020-02-24";
-                $date_max[78]="2020-02-25";
+                $date_max[78]="2020-03-31";
                 $date_min[79]="2020-01-05";
                 $date_max[79]="2020-03-31";
                 $date_min[80]="2020-02-25";
-                $date_max[80]="2020-02-26";
+                $date_max[80]="2020-03-31";
+                $date_min[81]="2020-03-03";
+                $date_max[81]="2020-03-31";
                 
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
@@ -25,6 +27,7 @@
             <?php if((date("Y-m-d") <= $date_max[78]) AND (date("Y-m-d") >= $date_min[78])):?><li><a href='./documentation/offres/78 - SAEMF - Educateur spécialisé.pdf'>SAEMF Vigneux-sur-Seine - Educateur spécialisé (H/F) - CDI</a></li><?php endif;?>
             <?php if((date("Y-m-d") <= $date_max[79]) AND (date("Y-m-d") >= $date_min[79])):?><li><a href='./documentation/offres/79 - SAEMF - Educateur spécialisé.pdf'>SAEMF Evry - Educateur spécialisé (H/F) - CDD</a></li><?php endif;?>
             <?php if((date("Y-m-d") <= $date_max[80]) AND (date("Y-m-d") >= $date_min[80])):?><li><a href='./documentation/offres/80 - ITEP - Educateur spécialisé.pdf'>ITEP - Educateur spécialisé (H/F) - CDI</a></li><?php endif;?>
+            <?php if((date("Y-m-d") <= $date_max[81]) AND (date("Y-m-d") >= $date_min[81])):?><li><a href='./documentation/offres/81 - SAEMF - Directeur.pdf'>SAEMF - Directeur (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php /* if($actualites->nbre() > 0) {
