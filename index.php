@@ -41,13 +41,39 @@ $actualites = new actualites('index');
   })();
 </script>
 <noscript><p><img src="//www.mdfconseil.fr/piwik/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+
+
 <!-- End Piwik Code -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+</script>
 
     </head>
     <body>
         <?php /*include_once('inc/menu-fixed.php'); */ ?>
 		<div id="footerWrapper" >
 			<?php include_once('inc/banniere.php'); ?>
+				<div class="hover_bkgr_fricc">
+					<span class="helper"></span>
+					<div>
+						<div class="popupCloseButton">&times;</div>
+						<p>Madame, Monsieur,<br/>
+
+Durant la situation de confinement afin de lutter contre la pandémie de COVID 19, les professionnels du CDSEA restent à votre écoute et poursuivent les accompagnements.<br/>
+Nous restons à votre disposition pour tous renseignements concernant les modalités mises en œuvre pour vous accompagner.<br/>
+Pour ce faire, vous pouvez contacter le Siège ou le standard de chacun des services. Une personne référente est désignée pour vous répondre.</p>
+<p>Vous pouvez consulter les coordonnées des établissements et services <a href="http://www.cdsea91.fr/contact.html#cdsea">ici</a>.</p>
+					</div>
+				</div>
+
 			<div id="conteneur">
 
 				<h1>Comité Départemental de Sauvegarde de l'Enfant à l'Adulte de l'Essonne</h1>
