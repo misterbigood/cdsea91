@@ -48,7 +48,7 @@ include_once('header.php');
 						<div class="unit-centered unit-40 join-bottom">
 							<div class="org-1 no-icon">
 								<h4 class="fonction">conseil d'administration</h4>
-								<p>Présidente<br><strong class="name">M-C. CARVALHO</strong></p>
+								<p>Président<br><strong class="name">J-M. POUJOL</strong></p>
 							</div>
 						</div>
 						<h3 class="unit-centered join-top">siège</h3>

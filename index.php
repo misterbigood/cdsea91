@@ -67,10 +67,9 @@ $(window).load(function () {
 						<div class="popupCloseButton">&times;</div>
 						<p>Madame, Monsieur,<br/>
 
-Durant la situation de confinement afin de lutter contre la pandémie de COVID 19, les professionnels du CDSEA restent à votre écoute et poursuivent les accompagnements.<br/>
-Nous restons à votre disposition pour tous renseignements concernant les modalités mises en œuvre pour vous accompagner.<br/>
-Pour ce faire, vous pouvez contacter le Siège ou le standard de chacun des services. Une personne référente est désignée pour vous répondre.</p>
-<p>Vous pouvez consulter les coordonnées des établissements et services <a href="http://www.cdsea91.fr/contact.html#cdsea">ici</a>.</p>
+Durant la crise sanitaire, l'ensemble des équipes du CDSEA restent mobilisées et adaptent leurs accompagnements aux différentes étapes du déconfinement.<br/>
+Pour plus de précisions, n'hésitez pas à contacter chacune des structures aux coordonnées indiquées <a href="http://www.cdsea91.fr/contact.html#cdsea">ici</a>.</p>
+<p>Nous prenons soin de vous.</p>
 					</div>
 				</div>
 
@@ -111,12 +110,14 @@ Pour ce faire, vous pouvez contacter le Siège ou le standard de chacun des serv
                                                 <h2>Conseil d'Administration</h2>
 						<h3>Membres du bureau :	</h3>
 						<dl class="units-row">
-							<dt class="unit-50">Marie-Christine CARVALHO</dt>
-							<dd class="unit-50"><span class="width-50">Présidente</span></dd>
-
 							<dt class="unit-50">Jean-Marie POUJOL</dt>
-							<dd class="unit-50"><span class="width-50">Vice-Président</span></dd>
+							<dd class="unit-50"><span class="width-50">Président</span></dd>
+
 							<dt class="unit-50">Germaine PEYRONNET</dt>
+							<dd class="unit-50"><span class="width-50">Vice-Présidente</span></dd>
+							<dt class="unit-50">Gérard LEJEUNE</dt>
+							<dd class="unit-50"><span class="width-50">Trésorier</span></dd>
+							<dt class="unit-50">Geneviève GREFFIN</dt>
 							<dd class="unit-50"><span class="width-50">Secrétaire</span></dd>
 							
 						</dl>
