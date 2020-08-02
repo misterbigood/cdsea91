@@ -53,7 +53,7 @@ include_once('header.php');
 						</div>
 						<div class="unit-centered unit-40 join-bottom">
 							<div class="org-2 no-icon //iconpeople iconpeople-3">
-								<p><strong class="name">Christophe REGNARD</strong><br>Directeur</p>
+								<p><strong class="name">Nadia DIARD</strong><br>Directrice</p>
 								<span class="join-right"></span>
 							</div>
 						</div>

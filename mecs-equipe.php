@@ -47,7 +47,7 @@ include_once('header.php');
 						<p>&nbsp;</p>
 						<div class="unit-centered unit-40 join-bottom">
 							<div class="org-2 no-icon //iconpeople iconpeople-3">
-								<p><strong class="name">Geneviève MALONGA</strong><br>Directrice</p>
+								<p><strong class="name">Miguel MAXIMIN-TARTARE</strong><br>Directeur</p>
                                                                 </div>
 						</div>
 						<div id="rateau" class="unit-centered width-75 rateau-4-divs"></div>
@@ -70,7 +70,11 @@ include_once('header.php');
 							</div>
 							<div class="unit-25 join-top">
 								<h3>Services Généraux</h3>
+								<div class="org-3 no-icon //iconpeople iconpeople-4">
+								<p><strong class="name">Maxime DARRAS</strong><br>Chef de service technique</p>
+								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-5">
+								
 									<p><strong>équipe</strong><br>1 Agent Technique<br>2 Agents de Service<br>1 Lingère<br>2 Cuisiniers<br>4 Veilleurs</p>
 								</div>
 							</div>

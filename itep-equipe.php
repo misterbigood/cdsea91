@@ -128,7 +128,7 @@ include_once('header.php');
 
 									<div class="org-3 no-icon //iconpeople iconpeople-3">
 
-										<p><strong class="name">Matthieu YASSEF<br>Valérie FLEURY</strong></p><p class="//marge-negative">Chefs de Service</p>
+										<p><strong class="name">Matthieu YASSEF</strong></p><p class="//marge-negative">Chef de Service</p>
 
 									</div>
 
@@ -140,7 +140,7 @@ include_once('header.php');
 
 									<div class="org-3 no-icon //iconpeople iconpeople-4">
 
-										<p><strong class="name">Joëlle VALENS</strong><br>Chef de Service</p>
+										<p><strong class="name">Valérie FLEURY</strong><br>Cheffe de Service</p>
 
 									</div>
 
@@ -190,7 +190,7 @@ include_once('header.php');
 
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
 
-										<p><strong class="name"></strong></p><p class="//marge-negative">Chef de Service</p>
+										<p><strong class="name">Emmanuel BROUANT</strong></p><p class="//marge-negative">Chef de Service</p>
 
 									</div>
 									<div class="org-4 no-icon //iconpeople iconpeople-5">

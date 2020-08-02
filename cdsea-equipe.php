@@ -78,26 +78,27 @@ include_once('header.php');
 									<p>Directrice<br><strong class="name">A. BASSOT</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
-									<p>Chefs de service ITEP<br><strong class="name">M. YASSEF<br>V. FLEURY</strong></p>
-									<p>Cheffe de service SESSAD<br><strong class="name">J. VALENS</strong></p>
-									<p>Chef de service technique<br><strong class="name"></strong></p>
+									<p>Chefs de service ITEP<br><strong class="name">M. YASSEF</strong></p>
+									<p>Cheffe de service SESSAD<br><strong class="name">V. FLEURY</strong></p>
+									<p>Chef de service technique<br><strong class="name">E. BROUANT</strong></p>
 								</div>
 							</div>
 							<div class="unit-16 join-top">
 								<h3>MECS</h3>
                                                                 <p>(35 salariés)</p>
 								<div class="org-3 no-icon //iconpeople iconpeople-3">
-									<p>Directrice<br><strong class="name">G. MALONGA</strong></p>
+									<p>Directeur<br><strong class="name">M. MAXIMIN-TARTARE</strong></p>
 								</div>
 								<div class="org-4 no-icon //iconpeople iconpeople-2">
                                                                     <p>Cheffes de service<br><strong class="name">G. GOMES<br>C. SZENFELD</strong></p>
+																	<p>Chef de service technique<br><strong class="name">M. DARRAS</strong></p>
 								</div>
 							</div>
 							<div class="unit-33 join-top">
 								<h3>AED</h3>
                                                                 <p>(60 salariés)</p>
 								<div class="org-3 no-icon unit-95 unit-centered //iconpeople iconpeople-3 ">
-									<p>Directeur<br><strong class="name">C. REGNARD</strong></p>
+									<p>Directrice<br><strong class="name">N. DIARD</strong></p>
 								</div>
 								<div class="unit-33">
 									<h3 class="small">corbeil</h3>
