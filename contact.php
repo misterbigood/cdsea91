@@ -46,7 +46,7 @@ $formContact->addOption('sujet', 'MECS', 'MECS -  Protection de l\'adolescent');
 $formContact->addOption('sujet', 'ITEP', 'ITEP et SESSAD -  Rééducation des troubles du comportement');
 $formContact->addOption('sujet', 'SAIS', 'SAIS -  Accompagnement de l\'adulte handicapé');
 $formContact->addOption('sujet', 'SAEMF', 'SAEMF - Service d\'Aide Educative en milieu familial');
-$formContact->addOption('sujet', 'CRE', 'CRE - Comité Relogement Essonne');
+$formContact->addOption('sujet', 'CRE', 'CRE - Collectif Relogement Essonne');
 $formContact->addSelect('sujet', 'sujet : ');
 $formContact->addTextarea('msg', '', 'message : ', 'cols=42, rows=4, required=required');
 $formContact->addCaptcha("class/captcha.php", '50'); //($classCaptchaAdress, $inputSize);
@@ -114,8 +114,8 @@ include_once('header.php');
 						<address id="cdsea">
 							<h2>C.D.S.E.A. Siège</h2>
 							<!--<a href="https://www.google.com/maps/place/98+All%C3%A9e+des+Champs+Elys%C3%A9es/@48.6301906,2.4243476,17z/data=!4m2!3m1!1s0x47e5de1710f423bb:0xeba2c8d03d52cc09" class="image-left gmap" target="_blank"><img src="images/Google-Maps-logo-Icon-Design.png" height="40" width="40" alt="Voir sur Google Maps"></a>-->
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.936843623215!2d2.424347600000002!3d48.630190600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5de1710f423bb%3A0xeba2c8d03d52cc09!2s98+All%C3%A9e+des+Champs+Elys%C3%A9es!5e0!3m2!1sfr!2sfr!4v1400335706886" width="400" height="220" frameborder="0" style="border:0"></iframe>
-                                                        <p class="end">98, allée des Champs Elysées - 91080  Courcouronnes</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.0153704117192!2d2.4217867518588685!3d48.62868792470394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5de172b9a031d%3A0x92db1bf03180ed61!2s60%20All%C3%A9e%20des%20Champs%20Elys%C3%A9es%2C%2091080%20%C3%89vry-Courcouronnes!5e0!3m2!1sfr!2sfr!4v1600416091687!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<p class="end">60, allée des Champs Elysées - 91080  Courcouronnes</p>
 							<p>Tel: 01 69 91 47 20 - Fax: 01 64 57 79 10</p>
         					</address>
 						<address id="itep">

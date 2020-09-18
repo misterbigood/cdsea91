@@ -3,19 +3,18 @@
 		<input type="hidden" name="search" value="1">
 		<p id="recherche-form"><input name="query" type="text" size="18" class="recherche-input" placeholder="Rechercher"><button name="envoyer" type="submit" class="loupeBtn"><img src="images/btn-recherche.png" width="30" height="30" alt="rechercher"></button></p>
         </form>
-        <?php   
-               
-                $date_min[82]="2020-06-30";
-                $date_max[82]="2020-07-31";
-                $date_min[83]="2020-07-23";
-                $date_max[83]="2020-08-31";
-                
+        <?php 
+                $date_min[86]="2020-07-23";
+                $date_max[86]="2020-10-15";
+                $date_min[85]="2020-08-31";
+                $date_max[85]="2020-09-30";
         ?>
         <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
         <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
         <ul>
-            <?php if((date("Y-m-d") <= $date_max[82]) AND (date("Y-m-d") >= $date_min[82])):?><li><a href='./documentation/offres/82 - ITEP - Directeur.pdf'>ITEP - Directeur (H/F) - CDI</a></li><?php endif;?>
-            <?php if((date("Y-m-d") <= $date_max[83]) AND (date("Y-m-d") >= $date_min[83])):?><li><a href='./documentation/offres/83 - CRE - Travailleur social AVDL - CDD.pdf'>CRE - Travailleur social AVDL (H/F) - CDD</a></li><?php endif;?>
+            
+            <?php if((date("Y-m-d") <= $date_max[86]) AND (date("Y-m-d") >= $date_min[86])):?><li><a href='./documentation/offres/86 - CRE - Travailleur social AVDL - CDD.pdf'>CRE - Deux Travailleurs sociaux AVDL (H/F) - CDD</a></li><?php endif;?>
+            <?php if((date("Y-m-d") <= $date_max[85]) AND (date("Y-m-d") >= $date_min[85])):?><li><a href='./documentation/offres/85 - ITEP - Chef de service.pdf'>ITEP - Chef de service (H/F) - CDI</a></li><?php endif;?>
         </ul>
         <?php endif; ?>
 	<?php /* if($actualites->nbre() > 0) {
