@@ -4,20 +4,49 @@
 		<p id="recherche-form"><input name="query" type="text" size="18" class="recherche-input" placeholder="Rechercher"><button name="envoyer" type="submit" class="loupeBtn"><img src="images/btn-recherche.png" width="30" height="30" alt="rechercher"></button></p>
         </form>
         <?php 
-                $date_min[86]="2020-07-23";
-                $date_max[86]="2020-10-15";
-                $date_min[85]="2020-08-31";
-                $date_max[85]="2020-09-30";
-        ?>
-        <?php if ((date("Y-m-d") <= max($date_max)) AND (date("Y-m-d") >= min($date_min)) ): ?>
-        <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
-        <ul>
-            
-            <?php if((date("Y-m-d") <= $date_max[86]) AND (date("Y-m-d") >= $date_min[86])):?><li><a href='./documentation/offres/86 - CRE - Travailleur social AVDL - CDD.pdf'>CRE - Deux Travailleurs sociaux AVDL (H/F) - CDD</a></li><?php endif;?>
-            <?php if((date("Y-m-d") <= $date_max[85]) AND (date("Y-m-d") >= $date_min[85])):?><li><a href='./documentation/offres/85 - ITEP - Chef de service.pdf'>ITEP - Chef de service (H/F) - CDI</a></li><?php endif;?>
-        </ul>
-        <?php endif; ?>
-	<?php /* if($actualites->nbre() > 0) {
+                $annonces[] = array("date_min" => "2021-01-04", 
+                                "date_max" => "2021-02-15",
+                                "fichier" => "89 - DITEP - ASS", 
+                                "titre"=> "DITEP - Assistante de service social (H/F) - CDI");
+                $annonces[] = array("date_min" => "2021-01-14", 
+                                "date_max" => "2021-02-15",
+                                "fichier" => "90 - MECS - Surveillant de nuit", 
+                                "titre"=> "MECS - Surveillant de nuit qualifié (H/F) - CDI");
+                $annonces[] = array("date_min" => "2021-01-14", 
+                                "date_max" => "2021-02-28",
+                                "fichier" => "91 - MECS - Directeur", 
+                                "titre"=> "MECS - Directeur (H/F) - CDI");
+                $annonces[] = array("date_min" => "2021-01-29", 
+                                "date_max" => "2021-02-28",
+                                "fichier" => "92 - DITEP - ES - Externat", 
+                                "titre"=> "DITEP - Educateur spécialisé - Externat (H/F) - CDI");
+                $annonce_active = 0;
+                if(is_array($annonces)):
+                        foreach($annonces as $key => $annonce):
+                                if($annonce["date_min"] <= date("Y-m-d") && $annonce["date_max"] >= date("Y-m-d")):
+                                        if($annonce_active == 0):
+                                                $annonce_active = 1;
+                                                ?>
+                                                <a href="#"><h3 class="iconimage iconimage-photos">Offres d'emploi</h3></a>
+                                                <ul>
+                                                        <li><a href='./documentation/offres/<?php echo $annonce["fichier"]?>.pdf'><?php echo $annonce ["titre"];?></a></li>
+                                                <?php
+                                        else:
+                                                $annonce_active = 2;
+                                                ?><li><a href='./documentation/offres/<?php echo $annonce["fichier"]?>.pdf'><?php echo $annonce ["titre"];?></a></li>
+                                                <?php
+                                                if ($key == count($annonces)-1):
+                                                        ?>
+                                                        </ul>
+                                                        <?php
+                                                endif;
+                                        endif;
+                                endif;
+                        endforeach;
+                endif;
+        
+
+	/* if($actualites->nbre() > 0) {
 		echo '<a href="actualites.html"><h3 class="iconimage iconimage-news">actualités</h3></a>' . " \n";
 		$actualites->afficherActusAccueil();
 	        }*/
