@@ -36,31 +36,31 @@ class menu {
 				$this->html .= $this->menu('index', 'L\'association', 'association');
 				//$this->html .= $this->menu('cdsea-missions', 'Missions', 'missions');
 				//$this->html .= $this->menu('cdsea-conseil-d-administration', 'Conseil d\'administration', 'conseil-d-administration');
-				$this->html .= $this->menu('cdsea-equipe', '&Eacute;quipe', 'equipe');
+				//$this->html .= $this->menu('cdsea-equipe', '&Eacute;quipe', 'equipe');
 				//$this->html .= $this->menu('cdsea-partenaires', 'Partenaires', 'partenaires');
 				//$this->html .= $this->menu('cdsea-financeurs', 'Financeurs', 'financeurs');
 				//$this->html .= $this->menu('cdsea-audacite', 'Audacité', 'audacite');
 			}
 			else if($this->main_page == 'mecs') {
 				$this->html .= $this->menu('mecs-structure', 'Structure', 'structure');
-				$this->html .= $this->menu('mecs-equipe', '&Eacute;quipe', 'equipe');
+				//$this->html .= $this->menu('mecs-equipe', '&Eacute;quipe', 'equipe');
 			}
 			else if($this->main_page == 'itep') {
 				$this->html .= $this->menu('itep-structure', 'Structure', 'structure');
-				$this->html .= $this->menu('itep-equipe', '&Eacute;quipe', 'equipe');
+				//$this->html .= $this->menu('itep-equipe', '&Eacute;quipe', 'equipe');
 			}
 			else if($this->main_page == 'sais') {
 				$this->html .= $this->menu('sais-structure', 'Structure', 'structure');
-				$this->html .= $this->menu('sais-equipe', '&Eacute;quipe', 'equipe');
+				//$this->html .= $this->menu('sais-equipe', '&Eacute;quipe', 'equipe');
 			}
 			else if($this->main_page == 'aed') {
 				$this->html .= $this->menu('aed-structure', 'Structure', 'structure');
-				$this->html .= $this->menu('aed-equipe', '&Eacute;quipe', 'equipe');
+				//$this->html .= $this->menu('aed-equipe', '&Eacute;quipe', 'equipe');
                                 $this->html .= $this->menu('aed-media', 'M&eacute;dias', 'media');
 			}
                         else if($this->main_page == 'cre') {
 				$this->html .= $this->menu('cre-structure', 'Structure', 'structure');
-				$this->html .= $this->menu('cre-equipe', '&Eacute;quipe', 'equipe');
+				//$this->html .= $this->menu('cre-equipe', '&Eacute;quipe', 'equipe');
                                 $this->html .= $this->menu('cre-prospection', 'P&ocirc;le Appui au Relogement', 'prospection');
                                 $this->html .= $this->menu('cre-social', 'P&ocirc;le Social', 'social');
 			}

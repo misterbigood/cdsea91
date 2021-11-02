@@ -45,34 +45,14 @@ $actualites = new actualites('index');
 
 <!-- End Piwik Code -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(window).load(function () {
-    $('.hover_bkgr_fricc').click(function(){
-        $('.hover_bkgr_fricc').hide();
-    });
-    $('.popupCloseButton').click(function(){
-        $('.hover_bkgr_fricc').hide();
-    });
-});
-</script>
+
 
     </head>
     <body>
         <?php /*include_once('inc/menu-fixed.php'); */ ?>
 		<div id="footerWrapper" >
 			<?php include_once('inc/banniere.php'); ?>
-				<div class="hover_bkgr_fricc">
-					<span class="helper"></span>
-					<div>
-						<div class="popupCloseButton">&times;</div>
-						<p>Madame, Monsieur,<br/>
-
-Durant la crise sanitaire, l'ensemble des équipes du CDSEA restent mobilisées et adaptent leurs accompagnements aux différentes étapes du déconfinement.<br/>
-Pour plus de précisions, n'hésitez pas à contacter chacune des structures aux coordonnées indiquées <a href="http://www.cdsea91.fr/contact.html#cdsea">ici</a>.</p>
-<p>Nous prenons soin de vous.</p>
-					</div>
-				</div>
-
+				
 			<div id="conteneur">
 
 				<h1>Comité Départemental de Sauvegarde de l'Enfant à l'Adulte de l'Essonne</h1>

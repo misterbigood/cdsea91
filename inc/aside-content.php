@@ -5,7 +5,7 @@
         </form>
         <?php 
                 $annonces[] = array("date_min" => "2021-01-04", 
-                                "date_max" => "2021-02-15",
+                                "date_max" => "2021-03-31",
                                 "fichier" => "89 - DITEP - ASS", 
                                 "titre"=> "DITEP - Assistante de service social (H/F) - CDI");
                 $annonces[] = array("date_min" => "2021-01-14", 
@@ -17,9 +17,18 @@
                                 "fichier" => "91 - MECS - Directeur", 
                                 "titre"=> "MECS - Directeur (H/F) - CDI");
                 $annonces[] = array("date_min" => "2021-01-29", 
-                                "date_max" => "2021-02-28",
+                                "date_max" => "2021-03-01",
                                 "fichier" => "92 - DITEP - ES - Externat", 
                                 "titre"=> "DITEP - Educateur spécialisé - Externat (H/F) - CDI");
+                $annonces[] = array("date_min" => "2021-03-12", 
+                                "date_max" => "2021-04-09",
+                                "fichier" => "93 - DITEP - ES", 
+                                "titre"=> "DITEP - Educateur spécialisé (H/F) - CDI");
+                                
+                $annonces[] = array("date_min" => "2021-04-22", 
+                                "date_max" => "2021-05-15",
+                                "fichier" => "94 - CRE - Travailleur social ASLL", 
+                                "titre"=> "CRE - Travailleur social ASLL");
                 $annonce_active = 0;
                 if(is_array($annonces)):
                         foreach($annonces as $key => $annonce):
