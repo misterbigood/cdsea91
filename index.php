@@ -60,47 +60,65 @@ $actualites = new actualites('index');
 				<section id="contenu" class="units-row cdsea">
 					<article class="unit-66">
 						<h1><strong>cdsea</strong></h1>
-						<p class="header">Projet associatif 2014-2019</p>
-						<h2>Une histoire</h2>
-						<img src="images/photocdsea.jpg" height="147" width="280" alt="CDSEA" class="image-right">
-						<p>Le CDSEA est créé en 1970, sur l'initiative du président du Conseil Général de l'Essonne, afin de restructurer des établissements en difficulté sur les communes de Morigny (ITEP et SESSAD de Brunehaut), de Morsang-sur-Orge (MECS) et de porter des projets dans le champ médico-social.<br>La gouvernance du CDSEA sera assurée par le Conseil Général (administrateurs nommés par l'Assemblée Départementale) entre 1970 et 2007.</p>
-						<p>Sous un statut d'association à but non lucratif (Loi 1901), le CDSEA va restructurer les deux établissements dont la gestion lui est confiée et développer des activités dans les champs de la protection de l'enfance (Services d'Action Educative en Milieu Familial) et du handicap (Service d'Accompagnement et d'Insertion Sociale).</p>
+						
+						<h2>Notre histoire</h2> 
+                        <h3>Plus de 50 ans au service du département et des populations les plus fragiles</h3>
+						
+						<p>Le Comité Départemental de Sauvegarde de l’Enfant à l’Adulte (C.D.S.E.A) est créé il y a plus de 50 ans, le 29 janvier 1970, sur l’initiative du président du Conseil Général de l’Essonne. Il s’agissait de reprendre la gestion du foyer de Brunehaut suite à sa réquisition. Cette structure accueille aujourd’hui l’Institut Thérapeutique, Educatif et Pédagogique (I.T.E.P.) ainsi que le Service d’Education Spécialisée et de Soins à Domicile (S.E.S.S.A.D.).</p>
 						<div class="doc-inser">
-                                                    <h4>Documentation</h4>
-                                                    <a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/CDSEA  Projet associatif 2014-2019.pdf">Projet associatif</a>
-                                                    <p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#Association">Plus...</a></p>
-                                                </div>
-                                                <p>Le changement de statuts en 2007 repositionne l'association dans une dimension territoriale plus élargie avec des administrateurs moins dépendants du Conseil Général et représentant les acteurs de la société civile.<br>Une convention de partenariat avec les cinq autres Sauvegardes franciliennes est signée en 2008.</p>
-						<h2>Des valeurs</h2>
+							<h4>Documentation</h4>
+							<a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/Orientations associatives  2022-2026.pdf">Orientations associatives 2022-2026</a>
+							<a class="pdf" href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/cdsea-organigramme.pdf">Organigramme</a>
+							
+							<p style="text-align:right"><a href="http://cdsea91.fr/documentation.html#Association">Plus...</a></p>
+                        </div>
+						<p>Depuis 1977, à la demande des services de protection de l’enfance du département, notre association met en œuvre des mesures un projet d’Aide Educative à Domicile fondées sur un travail collaboratif avec les familles, au travers du Service d’Action Educative en Milieu Familial (S.A.E.M.F).</p>
+						<p>En 1980 est créé un Foyer d’Hébergement en appartements partagés pour des adultes en situation de handicap mental et psychique auquel sera adjoint en 1998 un Service d’Accompagnement à la Vie Sociale. Ces services font l’objet depuis 2019 d’un contrat pluriannuel d’objectifs et de moyens avec le Conseil départemental.</p>
+						<p>Toujours à la demande du département, notre association procède en 1981 à la reprise d’une Maison d’Enfants à Caractère Social (M.E.C.S.) située à Morsang-sur-Orge. La mission principale, inscrite dans le cadre de la protection de l’enfance, consiste à contribuer à la protection de mineurs et jeunes majeurs en mettant en place un projet d’accompagnement adapté à leur situation.<br>
+							En juin 1992, sous la présidence du docteur Alain HOLLER, l’association se rend propriétaire du bâtiment et du terrain.</p>
+						<p>Le Siège de l’association est agréé par le département en 2008 afin de mettre en œuvre une politique associative, de centraliser la gestion financière et la gestion des ressources humaines.</p>
+						<p>En 2017, notre association absorbe le Collectif Relogement Essonne (association 1901) qui assure au travers de différents dispositifs la recherche, l’accompagnement social et le suivi de relogement pour des familles en très grande précarité, soutenu en cela notamment par la Fondation Abbé Pierre.</p>
+						<p><strong>Nous accompagnons aujourd’hui les parcours de 1 500 jeunes et adultes en nous appuyant sur le professionnalisme et la compétence de 197 salariés avec un budget de 11 millions d’euros.</strong></p>
+                        <h2>Nos orientations associatives</h2>
+						<ol>
+							<li>Améliorer et développer l’offre pour s’adapter aux besoins des publics, renforcer l’inscription sur le territoire et soutenir la cohérence des parcours</li>
+							<li>Soutenir la vie associative et ses déclinaisons dans l’organisation</li>
+							<li>Adapter la structuration du pilotage des activités de l’association au projet associatif</li>
+							<li>Soutenir le développement des compétences et expertises des équipes dans un cadre de qualité de vie et sécurité au travail</li>
+							<li>Adapter le modèle économique de l’association aux nouveaux enjeux des secteurs</li>
+						</ol>
+						<p>Le détail de nos orientations associatives, dans ce document: <a href="http://cdsea91.fr/inc/telechargerPdf.php?pdf=documentation/Association/Orientations associatives  2022-2026.pdf">Orientations associatives 2022-2026</a>.
+							</p>
+                        <h2>Nos valeurs</h2>
 						<ul id="valeurs">
 							<li><strong>Solidarité</strong>l'association oriente prioritairement son action au bénéfice des personnes les plus vulnérables et entend contribuer au projet de cohésion sociale sur son territoire d'intervention.</li>
 							<li><strong>Humanisme</strong>l'association défend des principes d'éducation reposant sur la capacité de chaque personne à rester actrice de sa destinée.<br>Elle favorise la collaboration des personnes en mobilisant et en renforçant les potentialités.</li>
 							<li><strong>Citoyenneté</strong>l'association défend et représente l'intérêt des personnes les plus vulnérables dans l'exercice de leur citoyenneté.<br>Elle propose et adapte ses projets en fonction de l'évolution des besoins des personnes.</li>
 							<li><strong>Laïcité</strong>l'association défend des principes d'éducation laïque dans un esprit républicain. Elle respecte le fait religieux mais interdit toute forme de prosélytisme.</li>
 						</ul>
-                                                <h2>Des missions</h2>
+                        <h2>Nos missions</h2>
 						<p>Dans le respect de ses valeurs, le CDSEA entend contribuer à la réalisation et au développement d'un véritable projet de cohésion sociale sur le territoire Essonnien.</p>
 						<p>L'association a pour mission principale de proposer, de porter et faire évoluer tout projet permettant de favoriser la vie et l'expression citoyenne des personnes les plus vulnérables.</p>
-						<h3>Aujourd'hui le CDSEA</h3>
-						<ul><li>Accompagne 1 300 enfants, adolescents ou adultes</li>
-							<li>Avec l'aide de 200 professionnels</li>
-							<li>Dans une vingtaine de communes de l'Essonne</li>
-							<li>Pour un budget de 11M &euro;</li>
-						</ul>
-                                                <h2>Conseil d'Administration</h2>
-						<h3>Membres du bureau :	</h3>
+						
+							<h2>Conseil d'Administration</h2>
 						<dl class="units-row">
 							<dt class="unit-50">Jean-Marie POUJOL</dt>
 							<dd class="unit-50"><span class="width-50">Président</span></dd>
-
 							<dt class="unit-50">Germaine PEYRONNET</dt>
 							<dd class="unit-50"><span class="width-50">Vice-Présidente</span></dd>
-							<dt class="unit-50">Gérard LEJEUNE</dt>
+							<dt class="unit-50">François Joseph ROUX</dt>
 							<dd class="unit-50"><span class="width-50">Trésorier</span></dd>
 							<dt class="unit-50">Geneviève GREFFIN</dt>
 							<dd class="unit-50"><span class="width-50">Secrétaire</span></dd>
-							
+							<dt class="unit-50">Laurence HEQUET</dt>
+							<dd class="unit-50"><span class="width-50">Membre actif</span></dd>
+							<dt class="unit-50">Christine ROSSO</dt>
+							<dd class="unit-50"><span class="width-50">Membre actif</span></dd>
+							<dt class="unit-50">Martine SOAVI</dt>
+							<dd class="unit-50"><span class="width-50">Membre actif</span></dd>
 						</dl>
+										
+						
 						<h2>Les partenaires</h2>
 						<dl class="units-row" id="partenaires">
 							<dt class="unit-16"><img src="images/partenaires/sauvegarde-yvelines.jpg" alt="La Sauvegarde des Yvelines" class="image-left"></dt><dd class="unit-33">La Sauvegarde des Yvelines<br><a href="http://www.sauvegarde-yvelines.org/">http://www.sauvegarde-yvelines.org/</a></dd>
