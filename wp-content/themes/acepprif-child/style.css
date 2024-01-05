@@ -1,0 +1,50 @@
+.bbp-user-page article,
+.bbp-user-edit article,
+.bbpress article,
+.page article,
+.single article {
+	border-top: 6px solid;
+	border-color: #3E5062;
+	margin: 0 0 24px;
+}
+
+.bbp-user-page .post-wrap,
+.bbp-user-edit .post-wrap,
+.bbpress .post-wrap {
+	padding: 40px 60px;
+}
+.forum-titles li {
+	font-size: 80%;
+}
+
+#bbpress-forums .bbp-forum-info .bbp-forum-content,
+#bbpress-forums .bbp-forum-content,
+#bbpress-forums p.bbp-topic-meta {
+  font-size: 14px;
+  margin: 5px 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+#forums-text-intro {
+	padding: 5px 0 20px;
+}
+
+#forums-text-intro .up {
+	font-size: 120%;
+}
+
+#bbpress-forums a.bbp-forum-permalink,
+#bbpress-forums a.bbp-topic-permalink,
+#bbpress-forums a.bbp-reply-permalink,
+#bbpress-forums .bbp-reply-content,
+#bbpress-forums .bbp-breadcrumb,
+#bbpress-forums .bbp-forms,
+#bbp-reply-content {
+	font-size: 14px;
+}
+
+#bbpress-forums div.bbp-template-notice.info {
+	display: none;
+}
+
